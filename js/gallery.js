@@ -178,13 +178,35 @@ const GALLERY_ITEMS = [
     categoryLabel: "Home Furnishing",
     isReal: false
   },
-  {
-    src: "images/mattresses/orthopedic-mattress.jpg?v=unique_v12",
-    title: "Custom Multi-Layer Orthopedic Comfort Mattress",
-    category: "home-furnishing",
-    categoryLabel: "Home Furnishing",
-    isReal: false
-  },
+      // --- ORTHOPEDIC & POCKET SPRING MATTRESSES (REAL WORKSHOP & INSTALLATION) ---
+    {
+      src: "images/mattresses/orthopedic-quilted-charcoal-mattress.jpg?v=unique_v13",
+      title: "Quilted Orthopedic Spine Care Mattress (Charcoal Quilted Geometric)",
+      category: "mattresses",
+      categoryLabel: "Orthopedic Mattresses",
+      isReal: true
+    },
+    {
+      src: "images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13",
+      title: "Dual-Tone Luxury Pocket Spring Mattress (Zero Partner Disturbance)",
+      category: "mattresses",
+      categoryLabel: "Pocket Spring Mattresses",
+      isReal: true
+    },
+    {
+      src: "images/mattresses/workshop-craftsmen-tape-edge-stitching.jpg?v=unique_v13",
+      title: "Master Craftsmen Operating Industrial Tape-Edge Sewing Machine",
+      category: "mattresses",
+      categoryLabel: "Workshop Craftsmanship",
+      isReal: true
+    },
+    {
+      src: "images/mattresses/client-installation-orthopedic-bed-mattress.jpg?v=unique_v13",
+      title: "Client Bedroom Bed Installation Orthopedic Mattress Delivery",
+      category: "mattresses",
+      categoryLabel: "Client Installation",
+      isReal: true
+    },
   {
     src: "images/curtains/luxury-linen-curtains.jpg?v=unique_v12",
     title: "Luxury Textured Linen Living Room Curtains",
@@ -232,8 +254,11 @@ document.addEventListener('DOMContentLoaded', () => {
           if (cat === 'headboards') {
             return item.category === 'headboards';
           }
+          if (cat === 'mattresses') {
+            return item.category === 'mattresses';
+          }
           if (cat === 'bedroom-furniture') {
-            return item.category === 'bedroom-furniture' || item.category === 'headboards';
+            return item.category === 'bedroom-furniture' || item.category === 'headboards' || item.category === 'mattresses';
           }
           return item.category === cat;
         });

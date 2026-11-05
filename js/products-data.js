@@ -241,24 +241,50 @@ const PRODUCTS_DATA = [
     servicesAvailable: ["Custom Sizing", "Matching Side Tables"]
   },
   {
-    id: "orthopedic-comfort-mattress",
-    slug: "orthopedic-comfort-mattress",
-    name: "Custom Multi-Layer Orthopedic Comfort Mattress",
+    id: "quilted-orthopedic-spine-mattress",
+    slug: "quilted-orthopedic-spine-mattress",
+    name: "Quilted Orthopedic Spine Care Mattress",
     category: "mattresses",
-    categoryLabel: "Mattresses",
-    shortDescription: "Spine-aligning high-density foam mattress tailored to any bespoke bed frame size, offering pressure relief and breathable comfort.",
-    description: "Engineered to deliver deep restorative sleep, our custom orthopedic mattresses are built with multi-density foam layers and breathable knitted jacquard covers that provide targeted lumbar support.",
+    categoryLabel: "Orthopedic Mattresses",
+    shortDescription: "Therapeutic multi-tier orthopedic mattress in charcoal geometric quilting, custom manufactured to any bed size.",
+    description: "Handcrafted at our Silvassa workshop, this orthopedic mattress features high-density rebonded foam composites, therapeutic lumbar posture zones, and a breathable charcoal geometric jacquard quilt that maintains optimal sleep temperature.",
     images: [
-      "images/mattresses/orthopedic-mattress.jpg?v=unique_v12"
+      "images/mattresses/orthopedic-quilted-charcoal-mattress.jpg?v=unique_v13",
+      "images/mattresses/workshop-craftsmen-tape-edge-stitching.jpg?v=unique_v13"
     ],
-    featured: false,
-    isRealClientPhoto: false,
+    featured: true,
+    isRealClientPhoto: true,
     customizationOptions: [
-      "Made to any custom dimension, length, and thickness (5, 6, 8, 10+ inches)",
-      "Firmness options: Medium Soft, Balanced Medium, or Extra-Firm Orthopedic"
+      "Exact millimeter sizing for King, Queen, Single, or bespoke beds",
+      "Choice of firmness: Balanced Medium, Ortho-Firm, or Dual-Sided Comfort",
+      "Thickness customized from 5 inches up to 12+ inches",
+      "Anti-sag heavy rebonded base core with multi-year warranty"
     ],
-    highlights: ["Spinal Alignment Support", "Custom Dimensions", "Breathable Fabric", "Silvassa Delivery"],
-    servicesAvailable: ["Custom Sizing to Fit Any Bed", "Firmness Consultation"]
+    highlights: ["100% Real Workshop Photo", "Spine Alignment Core", "Heavy Quilted Jacquard", "Silvassa Direct Pricing"],
+    servicesAvailable: ["Custom Sizing to Fit Any Bed Frame", "Firmness Consultation", "Free Silvassa Delivery"]
+  },
+  {
+    id: "dual-tone-pocket-spring-mattress",
+    slug: "dual-tone-pocket-spring-mattress",
+    name: "Dual-Tone Luxury Pocket Spring Mattress",
+    category: "mattresses",
+    categoryLabel: "Pocket Spring Mattresses",
+    shortDescription: "Zero-motion transfer pocket spring mattress with dual-tone contrast charcoal edge piping and plush comfort layers.",
+    description: "Engineered for peaceful sleep without disturbance, this mattress features individually encased barrel pocket coils that respond independently to body contours, reinforced by high-density edge encasement and dual-tone perimeter piping.",
+    images: [
+      "images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13",
+      "images/mattresses/client-installation-orthopedic-bed-mattress.jpg?v=unique_v13"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Individually wrapped pocket coils with zero motion transfer",
+      "Dual-tone edge binding with high-density perimeter rail",
+      "Plush pillow-top or euro-top comfort quilting layer",
+      "Custom King, Queen, or odd-size cot dimensions"
+    ],
+    highlights: ["Zero Partner Motion Transfer", "Independent Pocket Coils", "Dual-Tone Workshop Finish", "Edge-to-Edge Support"],
+    servicesAvailable: ["Free Bed Measurement in Silvassa", "Showroom Testing", "Doorstep Setup"]
   },
   {
     id: "luxury-sheer-blackout-curtains",
