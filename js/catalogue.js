@@ -19,7 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
     productGrid.innerHTML = '';
     const filtered = (category === 'all') 
       ? PRODUCTS_DATA 
-      : PRODUCTS_DATA.filter(p => p.category === category);
+      : PRODUCTS_DATA.filter(p => {
+          if (category === 'headboards') {
+            return p.category === 'headboards' || p.id === 'backlit-channel-tufted-bed' || p.id === 'botanical-luxury-bedroom-suite';
+          }
+          if (category === 'beds') {
+            return p.category === 'beds' || p.category === 'headboards';
+          }
+          return p.category === category;
+        });
 
     if (activeCountEl) {
       activeCountEl.textContent = `Showing ${filtered.length} curated design${filtered.length === 1 ? '' : 's'}`;

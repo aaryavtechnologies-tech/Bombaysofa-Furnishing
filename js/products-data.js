@@ -151,8 +151,8 @@ const PRODUCTS_DATA = [
     id: "backlit-channel-tufted-bed",
     slug: "architectural-backlit-channel-tufted-bed",
     name: "Architectural Warm-Backlit Channel-Tufted Bed Frame",
-    category: "beds",
-    categoryLabel: "Beds & Furniture",
+    category: "headboards",
+    categoryLabel: "Designer Headboards",
     shortDescription: "Custom platform bed with vertical channel tufting and integrated ambient LED warm backlighting framing an architectural arch.",
     description: "A signature bedroom installation in Silvassa. Designed with a curved-contour vertical channel tufted headboard, concealed indirect warm LED illumination, and a heavy-duty platform foundation engineered for complete silence and maximum mattress support.",
     images: [
@@ -176,8 +176,8 @@ const PRODUCTS_DATA = [
     id: "botanical-luxury-bedroom-suite",
     slug: "master-bedroom-suite-fluted-bed",
     name: "Master Bedroom Suite: Fluted Bed Frame with Botanical Wall",
-    category: "beds",
-    categoryLabel: "Beds & Furniture",
+    category: "headboards",
+    categoryLabel: "Designer Headboards",
     shortDescription: "Full master bedroom installation featuring a dusty-rose fluted headboard, matching floating side drawers, and botanical accent wall.",
     description: "An authentic turn-key bedroom furnishing by Bombay Sofa & Furnishing. Includes a generous vertical-fluted headboard upholstered in premium dusty rose velvet, integrated floating nightstands, and coordinated botanical feature wallpaper styling.",
     images: [

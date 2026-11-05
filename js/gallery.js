@@ -57,24 +57,24 @@ const GALLERY_ITEMS = [
   {
     src: "images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12",
     title: "Warm Backlit Architectural Headboard Bed with Vertical Fluting",
-    category: "bedroom-furniture",
-    categoryLabel: "Bedroom Furniture",
+    category: "headboards",
+    categoryLabel: "Bespoke Headboards",
     isReal: true
   },
   // --- REAL CLIENT SHOWCASE 8: Master Bedroom Suite & Botanical Feature Wall ---
   {
     src: "images/beds/botanical-luxury-bedroom-bed.jpg?v=unique_v12",
     title: "Master Bedroom Suite: Fluted Bed Frame with Botanical Feature Wall",
-    category: "bedroom-furniture",
-    categoryLabel: "Bedroom Furniture",
+    category: "headboards",
+    categoryLabel: "Bespoke Headboards",
     isReal: true
   },
   // --- REAL CLIENT SHOWCASE 9: Curved Terracotta Padded Headboard Bed ---
   {
     src: "images/beds/terracotta-arch-luxury-bed.jpg?v=unique_v12",
     title: "Curved Terracotta Padded Headboard Platform Bed in Arch Niche",
-    category: "bedroom-furniture",
-    categoryLabel: "Bedroom Furniture",
+    category: "headboards",
+    categoryLabel: "Bespoke Headboards",
     isReal: true
   },
   // --- REAL CLIENT SHOWCASE 10: Custom Upholstered Platform Bed ---
@@ -171,7 +171,15 @@ document.addEventListener('DOMContentLoaded', () => {
     galleryGrid.innerHTML = '';
     activeFilteredGallery = (cat === 'all')
       ? GALLERY_ITEMS
-      : GALLERY_ITEMS.filter(item => item.category === cat);
+      : GALLERY_ITEMS.filter(item => {
+          if (cat === 'headboards') {
+            return item.category === 'headboards';
+          }
+          if (cat === 'bedroom-furniture') {
+            return item.category === 'bedroom-furniture' || item.category === 'headboards';
+          }
+          return item.category === cat;
+        });
 
     activeFilteredGallery.forEach((item, index) => {
       const card = document.createElement('div');
