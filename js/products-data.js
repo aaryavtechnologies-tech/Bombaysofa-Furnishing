@@ -18,8 +18,8 @@ const PRODUCTS_DATA = [
     shortDescription: "Bespoke dual-tone L-shaped sectional sofa with rust terracotta upholstery, warm ivory platform base, and designer fluted accent cushions.",
     description: "Designed and crafted for modern living, this bespoke L-shaped sectional sofa brings warmth, style, and functional comfort into your home. Built on a sturdy seasoned wooden framework with high-resilience foam padding, it features an inviting rust terracotta fabric paired with a warm ivory lower surround. Comes with tailored ribbed accent cushions.",
     images: [
-      "images/sofas/l-shape-terracotta-sofa.jpg?v=real_v9",
-      "images/gallery/custom-terracotta-sectional.png?v=real_v9"
+      "images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v11",
+      "images/gallery/custom-terracotta-sectional.png?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -43,8 +43,8 @@ const PRODUCTS_DATA = [
     shortDescription: "Striking contemporary L-shaped sofa in textured teal upholstery with a matching fabric-upholstered center coffee table.",
     description: "A show-stopping living room centerpiece delivered to a Silvassa residence. Features an expansive chaise lounge, padded backrest channel stitching, and a custom matching geometric coffee table with glass top insert.",
     images: [
-      "images/sofas/teal-l-shaped-sectional-hd.jpg?v=real_v9",
-      "images/sofas/teal-l-shaped-sectional-portrait.jpg?v=real_v9"
+      "images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v11",
+      "images/sofas/teal-l-shaped-sectional-portrait.jpg?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -67,8 +67,8 @@ const PRODUCTS_DATA = [
     shortDescription: "Luxurious 3-seater sofa with vertical fluted backrest tailoring, champagne beige textured weave, and slender brass-finished legs.",
     description: "An elegant centerpiece for contemporary formal living rooms. This designer sofa showcases fine vertical channel tufting on the backrest, generous dual seat cushions with wrapped comfort layers, and refined brass legs that lift the silhouette off the floor to create an airy, spacious ambience.",
     images: [
-      "images/sofas/designer-fluted-sofa-hd.jpg?v=real_v9",
-      "images/hero/luxury-fluted-sofa-hd.jpg?v=real_v9"
+      "images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v11",
+      "images/hero/luxury-fluted-sofa-hd.jpg?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -91,8 +91,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Expansive luxury corner sofa in subtle dusty rose fabric with vertical fluted back and matching scatter pillows.",
     description: "Photographed installed in a modern Silvassa residence. Features full-wrap vertical back fluting, deep supportive seating, and durable woven velvet upholstery that complements bright, curtained living rooms.",
     images: [
-      "images/sofas/blush-pink-fluted-l-sofa-hd.jpg?v=real_v9",
-      "images/sofas/pink-tufted-corner-sofa.jpg?v=real_v9"
+      "images/sofas/blush-pink-fluted-l-sofa-hd.jpg?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -115,7 +114,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Contemporary curved-silhouette sofa crafted in textured cream fabric with tan leatherette armrest cushions and base.",
     description: "Built by our craftsmen in the Silvassa workshop. Showcases a soft curved platform, premium comfort padding, and dual-material construction that pairs warm tan leatherette accents with durable textured white seating.",
     images: [
-      "images/sofas/custom-cream-tan-sofa-hd.jpg?v=real_v9"
+      "images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -138,7 +137,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Generous corner sectional sofa with classic button-tufted backrests, tapered wooden legs, and tailored cushions.",
     description: "Crafted in our workshop with precision tufting, reinforced wooden frame, and tapered legs that provide easy cleaning clearance underneath. Built for spacious family living.",
     images: [
-      "images/sofas/pink-tufted-corner-sofa.jpg?v=real_v9"
+      "images/sofas/pink-tufted-corner-sofa.jpg?v=unique_v11"
     ],
     featured: false,
     isRealClientPhoto: true,
@@ -161,8 +160,8 @@ const PRODUCTS_DATA = [
     shortDescription: "Contemporary low-profile platform bed with full-width upholstered headboard and integrated seamless side tables.",
     description: "Crafted to redefine bedroom aesthetics, this custom platform bed features clean minimalist architecture, heavy-duty slat support for any mattress type, and an upholstered headboard tailored in durable, soft-touch fabric. Shown installed with matching window blinds in a Silvassa residence.",
     images: [
-      "images/beds/custom-platform-bed-hd.jpg?v=real_v9",
-      "images/gallery/bedroom-mattress-blinds.png?v=real_v9"
+      "images/beds/custom-platform-bed-hd.jpg?v=unique_v11",
+      "images/beds/luxury-bedroom-interior.jpg?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -186,7 +185,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Architectural curved 3-seater sofa in rich jewel-toned velvet with continuous cushioned back and track armrests.",
     description: "A statement piece combining modern sculptural form with everyday luxury. Deep seating cushions wrapped in soft premium velvet create a serene lounge experience, supported by a precision-crafted inner wooden frame.",
     images: [
-      "images/sofas/modern-emerald-sofa.jpg?v=real_v9"
+      "images/sofas/modern-emerald-sofa.jpg?v=unique_v11"
     ],
     featured: false,
     isRealClientPhoto: false,
@@ -206,7 +205,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Minimalist organic coffee table crafted with rich natural wood tones, smooth rounded corners, and durable surface finish.",
     description: "The ideal centerpiece to complement bespoke sofa arrangements. Made from premium seasoned timber with smooth hand-finished edges, offering both functional surface area and tactile craftsmanship.",
     images: [
-      "images/sofas/designer-coffee-table.jpg?v=real_v9"
+      "images/sofas/designer-coffee-table.jpg?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: false,
@@ -227,8 +226,8 @@ const PRODUCTS_DATA = [
     shortDescription: "Advanced spine-support mattress featuring pocket springs, high-density rebonded foam, and breathable quilted top.",
     description: "A rejuvenating sleep system that adapts to your body's natural contours. Built with multi-layer orthopedic engineering to relieve pressure points and minimize partner motion disturbance.",
     images: [
-      "images/mattresses/orthopedic-mattress.jpg?v=real_v9",
-      "images/mattresses/premium-mattress-setup.png?v=real_v9"
+      "images/mattresses/orthopedic-mattress.jpg?v=unique_v11",
+      "images/mattresses/premium-mattress-setup.png?v=unique_v11"
     ],
     featured: true,
     isRealClientPhoto: true,

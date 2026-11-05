@@ -1,138 +1,119 @@
 /**
  * Bombay Sofa & Furnishing - Visual Gallery Engine
  * Category filtering, lightbox navigation, keyboard support.
- * Features 100% genuine client installations and workshop builds.
+ * Features 100% unique genuine client installations, workshop builds and showroom displays.
  */
 
 const GALLERY_ITEMS = [
-  // --- REAL CLIENT INSTALLATION 1: Teal Sectional & Matching Coffee Table ---
+  // --- REAL CLIENT SHOWCASE 1: Designer Fluted Beige Sofa with Brass Accents ---
   {
-    src: "images/sofas/teal-l-shaped-sectional-hd.jpg?v=real_v9",
-    title: "Custom Teal Blue L-Shaped Sectional with Matching Coffee Table",
-    category: "custom-sofas",
-    categoryLabel: "Custom Sofa Projects",
-    isReal: true
-  },
-  // --- REAL CLIENT INSTALLATION 2: Blush Pink Fluted L-Shaped Sectional ---
-  {
-    src: "images/sofas/blush-pink-fluted-l-sofa-hd.jpg?v=real_v9",
-    title: "Fluted Velvet L-Shaped Corner Sofa in Dusty Rose",
-    category: "sofa-designs",
-    categoryLabel: "Sofa Designs",
-    isReal: true
-  },
-  // --- REAL CLIENT INSTALLATION 3: Terracotta & Ivory Sectional ---
-  {
-    src: "images/sofas/l-shape-terracotta-sofa.jpg?v=real_v9",
-    title: "Custom L-Shaped Sectional in Terracotta & Ivory",
-    category: "custom-sofas",
-    categoryLabel: "Custom Sofa Projects",
-    isReal: true
-  },
-  // --- REAL CLIENT INSTALLATION 4: Designer Fluted Beige Sofa ---
-  {
-    src: "images/sofas/designer-fluted-sofa-hd.jpg?v=real_v9",
+    src: "images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v11",
     title: "Designer Fluted 3-Seater Sofa with Brass Accents",
     category: "sofa-designs",
     categoryLabel: "Sofa Designs",
     isReal: true
   },
-  // --- REAL WORKSHOP BUILD 5: Cream & Tan Dual-Tone Sofa ---
+  // --- REAL CLIENT SHOWCASE 2: Teal L-Shaped Sectional with Matching Center Table ---
   {
-    src: "images/sofas/custom-cream-tan-sofa-hd.jpg?v=real_v9",
-    title: "Handcrafted Cream & Tan Leatherette Dual-Tone Sofa",
+    src: "images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v11",
+    title: "Custom Teal Blue L-Shaped Sectional with Matching Coffee Table",
     category: "custom-sofas",
     categoryLabel: "Custom Sofa Projects",
     isReal: true
   },
-  // --- REAL CLIENT INSTALLATION 6: Dusty Rose Corner Sectional Angle ---
+  // --- REAL CLIENT SHOWCASE 3: Terracotta & Ivory Sectional ---
   {
-    src: "images/sofas/pink-tufted-corner-sofa.jpg?v=real_v9",
-    title: "Dusty Rose Modular Corner Sectional Tailoring",
-    category: "sofa-designs",
-    categoryLabel: "Sofa Designs",
+    src: "images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v11",
+    title: "Custom L-Shaped Sectional in Terracotta & Ivory",
+    category: "custom-sofas",
+    categoryLabel: "Custom Sofa Projects",
     isReal: true
   },
-  // --- REAL CLIENT INSTALLATION 7: Teal Sectional Room View ---
+  // --- REAL WORKSHOP SHOWCASE 4: Cream & Tan Dual-Tone Curved Sofa ---
   {
-    src: "images/sofas/teal-l-shaped-sectional-portrait.jpg?v=real_v9",
-    title: "Teal L-Shaped Sofa Living Room Installation",
-    category: "living-furniture",
-    categoryLabel: "Living Room Furniture",
+    src: "images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v11",
+    title: "Handcrafted Cream & Tan Dual-Tone Curved Sofa",
+    category: "custom-sofas",
+    categoryLabel: "Custom Sofa Projects",
     isReal: true
   },
-  // --- REAL CLIENT INSTALLATION 8: Custom Platform Bed ---
+  // --- REAL CLIENT SHOWCASE 5: Custom Upholstered Platform Bed Frame ---
   {
-    src: "images/beds/custom-platform-bed-hd.jpg?v=real_v9",
-    title: "Custom Upholstered Platform Bed with Extended Headboard",
+    src: "images/beds/custom-platform-bed-hd.jpg?v=unique_v11",
+    title: "Custom Upholstered Platform Bed Frame with Headboard",
     category: "bedroom-furniture",
     categoryLabel: "Bedroom Furniture",
     isReal: true
   },
-  // --- REAL CLIENT INSTALLATION 9: Bedroom Mattress & Window Blinds ---
+  // --- SHOWROOM & FURNISHING DESIGNS (ALL UNIQUE PHOTOGRAPHS) ---
   {
-    src: "images/gallery/bedroom-mattress-blinds.png?v=real_v9",
-    title: "Bedroom Mattress, Headboard & Modern Window Blinds",
-    category: "curtains-blinds",
-    categoryLabel: "Curtains & Blinds",
-    isReal: true
-  },
-  // --- REAL CLIENT INSTALLATION 10: Terracotta Sectional Room View ---
-  {
-    src: "images/gallery/custom-terracotta-sectional.png?v=real_v9",
-    title: "Living Room Installation of Terracotta Sectional",
-    category: "living-furniture",
-    categoryLabel: "Living Room Furniture",
-    isReal: true
-  },
-  // --- SHOWROOM & FURNISHING DESIGNS (PRESERVED) ---
-  {
-    src: "images/gallery/showroom-interior-display.jpg?v=real_v9",
-    title: "Bombay Sofa & Furnishing Showroom Ambiance",
-    category: "showroom",
-    categoryLabel: "Showroom",
-    isReal: false
-  },
-  {
-    src: "images/sofas/designer-coffee-table.jpg?v=real_v9",
+    src: "images/sofas/designer-coffee-table.jpg?v=unique_v11",
     title: "Handcrafted Solid Teak & Stone Coffee Table",
     category: "living-furniture",
     categoryLabel: "Living Room Furniture",
     isReal: false
   },
   {
-    src: "images/curtains/sheer-window-drapes.jpg",
+    src: "images/curtains/sheer-window-drapes.jpg?v=unique_v11",
     title: "Tailored Sheer Linen Drapes & Sunlight Filtering",
     category: "curtains-blinds",
     categoryLabel: "Curtains & Blinds",
     isReal: false
   },
   {
-    src: "images/blinds/wooden-roller-blinds.jpg",
+    src: "images/blinds/wooden-roller-blinds.jpg?v=unique_v11",
     title: "Architectural Zebra & Wooden Roller Blinds",
     category: "curtains-blinds",
     categoryLabel: "Curtains & Blinds",
     isReal: false
   },
   {
-    src: "images/fabrics/upholstery-fabric-textures.jpg",
+    src: "images/fabrics/upholstery-fabric-textures.jpg?v=unique_v11",
     title: "Curated Upholstery Swatch Library",
     category: "home-furnishing",
     categoryLabel: "Home Furnishing",
     isReal: false
   },
   {
-    src: "images/wallpapers/textured-luxury-wallpaper.jpg",
+    src: "images/wallpapers/textured-luxury-wallpaper.jpg?v=unique_v11",
     title: "Textured Luxury Accent Wall Coverings",
     category: "home-furnishing",
     categoryLabel: "Home Furnishing",
     isReal: false
   },
   {
-    src: "images/mattresses/orthopedic-mattress.jpg?v=real_v9",
+    src: "images/mattresses/orthopedic-mattress.jpg?v=unique_v11",
     title: "Custom Multi-Layer Orthopedic Comfort Mattress",
     category: "home-furnishing",
     categoryLabel: "Home Furnishing",
+    isReal: false
+  },
+  {
+    src: "images/curtains/luxury-linen-curtains.jpg?v=unique_v11",
+    title: "Luxury Textured Linen Living Room Curtains",
+    category: "curtains-blinds",
+    categoryLabel: "Curtains & Blinds",
+    isReal: false
+  },
+  {
+    src: "images/blinds/modern-venetian-blinds.jpg?v=unique_v11",
+    title: "Modern Precision Venetian Daylight Blinds",
+    category: "curtains-blinds",
+    categoryLabel: "Curtains & Blinds",
+    isReal: false
+  },
+  {
+    src: "images/gallery/showroom-interior-display.jpg?v=unique_v11",
+    title: "Bombay Sofa & Furnishing Showroom Display",
+    category: "showroom",
+    categoryLabel: "Showroom",
+    isReal: false
+  },
+  {
+    src: "images/sofas/craftsman-upholstery-work.jpg?v=unique_v11",
+    title: "Artisan Woodworking & Upholstery Craftsmanship",
+    category: "custom-sofas",
+    categoryLabel: "Custom Sofa Projects",
     isReal: false
   }
 ];
