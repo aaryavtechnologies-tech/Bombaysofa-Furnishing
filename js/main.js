@@ -105,6 +105,34 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 5. Initialize Lucide Icons if available
+  
+  // Polyfill Instagram SVG icons (since Lucide v0.400+ removed brand icons)
+  function polyfillInstagramIcons() {
+    var svgCode = '<rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>';
+    var elements = document.querySelectorAll('[data-lucide="instagram"], i.lucide-instagram');
+    elements.forEach(function (el) {
+      var w = el.style.width || el.getAttribute('width') || '18';
+      var h = el.style.height || el.getAttribute('height') || '18';
+      var numW = parseInt(w) || 18;
+      var numH = parseInt(h) || 18;
+      var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+      svg.setAttribute('width', numW);
+      svg.setAttribute('height', numH);
+      svg.setAttribute('viewBox', '0 0 24 24');
+      svg.setAttribute('fill', 'none');
+      svg.setAttribute('stroke', 'currentColor');
+      svg.setAttribute('stroke-width', '2');
+      svg.setAttribute('stroke-linecap', 'round');
+      svg.setAttribute('stroke-linejoin', 'round');
+      svg.setAttribute('class', 'lucide lucide-instagram ' + (el.className || ''));
+      svg.setAttribute('aria-hidden', 'true');
+      if (el.style.cssText) svg.style.cssText = el.style.cssText;
+      svg.innerHTML = svgCode;
+      el.replaceWith(svg);
+    });
+  }
+
   if (window.lucide && typeof window.lucide.createIcons === 'function') {
     window.lucide.createIcons();
   initInstagramReels();
