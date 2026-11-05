@@ -85,6 +85,42 @@ const GALLERY_ITEMS = [
     categoryLabel: "Bedroom Furniture",
     isReal: true
   },
+  // --- PUFFIES & OTTOMANS (5 BESPOKE DESIGNS) ---
+  {
+    src: "images/puffies/rectangular-bed-bench-puffy.jpg?v=unique_v12",
+    title: "Nordic Rectangular Bed-End Bench Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
+  {
+    src: "images/puffies/square-minimalist-ottoman-puffy.jpg?v=unique_v12",
+    title: "Square Minimalist Low Ottoman Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
+  {
+    src: "images/puffies/artisan-tufted-chaise-bench-puffy.jpg?v=unique_v12",
+    title: "Artisan Channel-Tufted Chaise Bench Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
+  {
+    src: "images/puffies/curved-flared-footstool-puffy.jpg?v=unique_v12",
+    title: "Modern Curved Flared Footstool Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
+  {
+    src: "images/puffies/round-cylindrical-tier-pouf-puffy.jpg?v=unique_v12",
+    title: "Nordic Double-Tier Round Pouf Stool Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
   // --- SHOWROOM & FURNISHING DESIGNS (ALL 100% DISTINCT PHOTOGRAPHY) ---
   {
     src: "images/sofas/designer-coffee-table.jpg?v=unique_v12",

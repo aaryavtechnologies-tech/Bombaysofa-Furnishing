@@ -342,6 +342,113 @@ const PRODUCTS_DATA = [
     highlights: ["Washable Surface", "Seamless Pattern Fit", "Vibrant Lightfast Inks", "Showroom Catalog Selection"],
     servicesAvailable: ["Wall Area Measurement", "Professional Wallpaper Application in Silvassa"]
   }
+,
+  // --- PUFFIES & OTTOMANS (5 BESPOKE DESIGNS) ---
+  {
+    id: "rectangular-bed-bench-puffy",
+    slug: "nordic-rectangular-bed-end-bench-puffy",
+    name: "Nordic Rectangular Bed-End Bench Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Generous 4-foot upholstered bench featuring clean textured woven upholstery and tapered natural wooden legs.",
+    description: "A versatile statement piece crafted in our Silvassa workshop. Designed for foot-of-bed placement, dressing areas, entryways, or extra living room seating. Features a solid seasoned wood foundation and high-resilience foam padding.",
+    images: [
+      "images/puffies/rectangular-bed-bench-puffy.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Custom lengths: 3ft, 4ft, 5ft or custom bed-width match",
+      "Choice of tapered round or square timber legs in natural teak, walnut, or black finish",
+      "Over 100+ stain-resistant textured fabrics and velvets"
+    ],
+    highlights: ["Tapered Solid Timber Legs", "High-Density Foam Cushioning", "Multi-Room Utility", "Workshop Build"],
+    servicesAvailable: ["Custom Sizing", "Showroom Fabric Selection", "Silvassa Region Delivery"]
+  },
+  {
+    id: "square-minimalist-ottoman-puffy",
+    slug: "square-minimalist-low-ottoman-puffy",
+    name: "Square Minimalist Low Ottoman Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Contemporary low-profile square ottoman with curved timber corner bracket legs and textured neutral upholstery.",
+    description: "Built for relaxed modern living. Features curved solid timber corner bracket legs, clean tailored seams, and generous high-resilience seating foam suitable as a footrest, coffee table companion, or occasional seat.",
+    images: [
+      "images/puffies/square-minimalist-ottoman-puffy.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Custom square dimensions (24x24 in, 30x30 in, 36x36 in+)",
+      "Timber corner bracket finishes (Natural, Walnut, Dark Oak)",
+      "Fabric choices: Bouclé, Chenille, Woven Linen, Velvet"
+    ],
+    highlights: ["Curved Corner Timber Brackets", "Tailored Seams", "Low-Profile Relaxed Height", "Multi-Functional"],
+    servicesAvailable: ["Custom Dimensions", "Fabric Swatches at Showroom"]
+  },
+  {
+    id: "artisan-tufted-chaise-bench-puffy",
+    slug: "artisan-channel-tufted-chaise-bench-puffy",
+    name: "Artisan Channel-Tufted Chaise Bench Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Sculptural cushioned daybed bench featuring button/channel tufted upholstery, curved side arm bolsters, and angled wooden legs.",
+    description: "An elegant accent daybed bench crafted in our Silvassa workshop. Showcases deep channel/button tufting, contoured side bolsters for lounging, and angled solid hardwood legs that bring mid-century sophistication into bedrooms and living areas.",
+    images: [
+      "images/puffies/artisan-tufted-chaise-bench-puffy.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Single or dual-sided contoured arm bolsters",
+      "Deep button tufted or vertical channel stitch finish",
+      "Over 150+ luxury velvet and bouclé textiles"
+    ],
+    highlights: ["Deep Channel/Button Tufting", "Contoured Arm Bolsters", "Mid-Century Angled Legs", "Silvassa Craftsmanship"],
+    servicesAvailable: ["Custom Sizing", "Showroom Consultation"]
+  },
+  {
+    id: "curved-flared-footstool-puffy",
+    slug: "modern-curved-flared-footstool-puffy",
+    name: "Modern Curved Flared Footstool Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Dual-tone architectural footstool featuring a flared curved lower surround, ultra-padded top cushion, and round tapered wooden legs.",
+    description: "Ergonomically designed to pair with lounge armchairs, vanity dressers, or relaxed reading nooks. Features a dual-tone curved flared silhouette, plush comfort wrapped top foam, and sturdy round dowel timber legs.",
+    images: [
+      "images/puffies/curved-flared-footstool-puffy.jpg?v=unique_v12"
+    ],
+    featured: false,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Dual-tone or single-tone fabric color combinations",
+      "Custom seat height to match specific armchair or bed",
+      "Stain-resistant and pet-friendly upholstery options"
+    ],
+    highlights: ["Flared Curved Base", "Deep Padded Top Cushion", "Round Tapered Legs", "Ergonomic Comfort"],
+    servicesAvailable: ["Custom Height Match", "Fabric Swatches at Showroom"]
+  },
+  {
+    id: "round-cylindrical-tier-pouf-puffy",
+    slug: "nordic-double-tier-round-pouf-stool-puffy",
+    name: "Nordic Double-Tier Round Pouf Stool Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Architectural double-tier cylindrical pouf stool accented with an inset timber ring divider and 4 rounded wooden dowel legs.",
+    description: "A trendy boutique design popular for vanity dressing tables, boutique bedrooms, and modern living rooms. Features a tiered cylindrical silhouette with an accent wood trim ring and 4 vertical solid timber dowel legs.",
+    images: [
+      "images/puffies/round-cylindrical-tier-pouf-puffy.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Custom diameter and height for vanity table clearance",
+      "Timber accent band stain matching bedroom furniture",
+      "Choice of bouclé, velvet, and textured weave textiles"
+    ],
+    highlights: ["Double-Tier Cylinder Silhouette", "Timber Divider Ring", "4 Solid Wood Dowel Legs", "Vanity & Dressing Fit"],
+    servicesAvailable: ["Custom Sizing", "Showroom Fabric Selection"]
+  }
 ];
 
 if (typeof window !== 'undefined') {
