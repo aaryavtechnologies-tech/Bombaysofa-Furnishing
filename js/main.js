@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 5. Initialize Lucide Icons if available
   if (window.lucide && typeof window.lucide.createIcons === 'function') {
     window.lucide.createIcons();
+  initInstagramReels();
   }
 });
 
@@ -194,3 +195,79 @@ function closeProductModal() {
   }
 }
 
+
+/**
+ * Instagram Reels Autoplay and Sound Controls
+ */
+function initInstagramReels() {
+  const reelCards = document.querySelectorAll('.reel-card');
+  if (!reelCards.length) return;
+
+  const videos = document.querySelectorAll('.reel-video');
+
+  // IntersectionObserver to auto-play when visible, pause when out of view
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const video = entry.target;
+        const card = video.closest('.reel-card');
+        if (entry.isIntersecting) {
+          if (!card.classList.contains('manual-paused')) {
+            video.play().catch(() => {});
+            card.classList.remove('is-paused');
+          }
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.35 });
+
+    videos.forEach(v => observer.observe(v));
+  }
+
+  // Card click to pause/play & sound toggle
+  reelCards.forEach(card => {
+    const video = card.querySelector('.reel-video');
+    const soundBtn = card.querySelector('.reel-sound-btn');
+
+    if (video) {
+      video.addEventListener('click', (e) => {
+        if (e.target.closest('.reel-overlay-top') || e.target.closest('.reel-actions-row')) return;
+        if (video.paused) {
+          video.play().catch(() => {});
+          card.classList.remove('is-paused');
+          card.classList.remove('manual-paused');
+        } else {
+          video.pause();
+          card.classList.add('is-paused');
+          card.classList.add('manual-paused');
+        }
+      });
+    }
+
+    if (soundBtn && video) {
+      soundBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (video.muted) {
+          videos.forEach(otherVid => {
+            if (otherVid !== video) {
+              otherVid.muted = true;
+              const otherBtn = otherVid.closest('.reel-card')?.querySelector('.reel-sound-btn');
+              if (otherBtn) {
+                otherBtn.innerHTML = '<i data-lucide="volume-x" style="width: 18px; height: 18px;"></i>';
+              }
+            }
+          });
+          video.muted = false;
+          soundBtn.innerHTML = '<i data-lucide="volume-2" style="width: 18px; height: 18px; color: #E1306C;"></i>';
+          soundBtn.setAttribute('aria-label', 'Mute video');
+        } else {
+          video.muted = true;
+          soundBtn.innerHTML = '<i data-lucide="volume-x" style="width: 18px; height: 18px;"></i>';
+          soundBtn.setAttribute('aria-label', 'Unmute video');
+        }
+        if (window.lucide) window.lucide.createIcons();
+      });
+    }
+  });
+}
