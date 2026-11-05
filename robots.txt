@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bombaysofafurnishing.com/sitemap.xml
+

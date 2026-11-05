@@ -1,0 +1,18 @@
+{
+  "name": "bombay-sofa-and-furnishing",
+  "version": "1.0.0",
+  "description": "Premium multi-page website for Bombay Sofa & Furnishing showroom in Silvassa, Dadra and Nagar Haveli",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "furniture-silvassa",
+    "sofa-silvassa",
+    "home-furnishing",
+    "custom-sofas"
+  ],
+  "author": "Bombay Sofa & Furnishing",
+  "license": "ISC"
+}
+
