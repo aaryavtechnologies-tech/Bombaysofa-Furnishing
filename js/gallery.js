@@ -121,6 +121,27 @@ const GALLERY_ITEMS = [
     categoryLabel: "Puffies & Ottomans",
     isReal: true
   },
+  {
+    src: "images/puffies/cozy-boucle-round-pouf-puffy.jpg?v=unique_v12",
+    title: "Cozy Bouclé Round Pouf Puffy with Timber Legs",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
+  {
+    src: "images/puffies/luxury-tufted-square-ottoman-puffy.jpg?v=unique_v12",
+    title: "Biscuit-Tufted Velvet Square Ottoman Puffy with Brass Legs",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
+  {
+    src: "images/puffies/cylindrical-boucle-trio-stools-puffy.jpg?v=unique_v12",
+    title: "Minimalist Bouclé Cylindrical Stool Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    isReal: true
+  },
   // --- SHOWROOM & FURNISHING DESIGNS (ALL 100% DISTINCT PHOTOGRAPHY) ---
   {
     src: "images/sofas/designer-coffee-table.jpg?v=unique_v12",

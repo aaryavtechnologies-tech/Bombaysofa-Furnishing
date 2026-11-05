@@ -449,6 +449,70 @@ const PRODUCTS_DATA = [
     highlights: ["Double-Tier Cylinder Silhouette", "Timber Divider Ring", "4 Solid Wood Dowel Legs", "Vanity & Dressing Fit"],
     servicesAvailable: ["Custom Sizing", "Showroom Fabric Selection"]
   }
+,
+  {
+    id: "cozy-boucle-round-pouf-puffy",
+    slug: "cozy-boucle-round-pouf-puffy",
+    name: "Cozy Bouclé Round Pouf Puffy with Timber Legs",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Plush round cylindrical pouf upholstered in textured teddy bouclé fabric with 4 solid tapered timber legs.",
+    description: "Designed for effortless, tactile luxury. Brings warm Scandinavian comfort and secondary casual seating into bedrooms and living spaces. Built with high-density resilient foam core and solid timber tapered legs.",
+    images: [
+      "images/puffies/cozy-boucle-round-pouf-puffy.jpg?v=unique_v12"
+    ],
+    featured: false,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Custom diameter: 18 in, 22 in, 26 in+",
+      "Timber leg finishes: Natural Oak, Warm Walnut, Ebonized Black",
+      "Fabric options: Teddy Bouclé, Velvet, Heavy Textured Linen"
+    ],
+    highlights: ["Teddy Bouclé Texture", "Tapered Timber Dowel Legs", "Compact Circular Footprint", "High-Density Core"],
+    servicesAvailable: ["Custom Sizing", "Showroom Fabric Selection"]
+  },
+  {
+    id: "luxury-tufted-square-ottoman-puffy",
+    slug: "biscuit-tufted-velvet-square-ottoman-puffy",
+    name: "Biscuit-Tufted Velvet Square Ottoman Puffy with Brass Legs",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Sophisticated square low ottoman featuring deep biscuit grid tufting, plush velvet upholstery, and slender gold brass-finished tapered legs.",
+    description: "A formal living room statement piece. Handcrafted with deep geometric biscuit tufting, high-resilience wrapped foam padding, and polished brass-finished metallic legs. Available in pairs or individual accent units.",
+    images: [
+      "images/puffies/luxury-tufted-square-ottoman-puffy.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Available as individual unit or coordinated color pairs",
+      "Choice of 100+ luxury velvet shades (Champagne, Mustard, Teal, Rust, Olive)",
+      "Leg finishes: Polished Brass, Brushed Gold, Matte Black"
+    ],
+    highlights: ["Deep Biscuit Grid Tufting", "Polished Brass Accent Legs", "Plush Woven Velvet", "Pair Options"],
+    servicesAvailable: ["Custom Dimensions", "Showroom Fabric Selection"]
+  },
+  {
+    id: "cylindrical-boucle-trio-stools-puffy",
+    slug: "minimalist-boucle-cylindrical-stool-puffy",
+    name: "Minimalist Bouclé Cylindrical Stool Puffy",
+    category: "puffies",
+    categoryLabel: "Puffies & Ottomans",
+    shortDescription: "Modern cylindrical accent stool wrapped in ivory textured bouclé with natural light timber tapered legs.",
+    description: "Lightweight, chic, and endlessly versatile. Features a seamless curved cylindrical foam core wrapped in ivory teddy bouclé, elevated on 4 solid natural timber dowel legs. Perfect for dressing vanity setups or clustered living room seating.",
+    images: [
+      "images/puffies/cylindrical-boucle-trio-stools-puffy.jpg?v=unique_v12"
+    ],
+    featured: false,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Single stool or set of 2, 3 nested stools",
+      "Custom seat height to fit specific dressing vanity table clearance",
+      "Fabric texture choices in warm neutrals, charcoal, and pastels"
+    ],
+    highlights: ["Seamless Cylindrical Contour", "Natural Light Wood Dowel Legs", "Multi-Room Vanity & Lounge Fit"],
+    servicesAvailable: ["Vanity Height Fit", "Showroom Fabric Selection"]
+  }
 ];
 
 if (typeof window !== 'undefined') {
