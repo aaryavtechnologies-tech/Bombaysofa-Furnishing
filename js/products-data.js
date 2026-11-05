@@ -2,9 +2,8 @@
  * Centralised Product Data Structure for Bombay Sofa & Furnishing
  * Silvassa, Dadra and Nagar Haveli
  *
- * Designed for easy future API/CMS/Admin integration
- * Note: Specifications and prices are intentionally omitted or kept strictly authentic
- * to comply with business rules.
+ * Designed for easy future API/CMS/Admin integration.
+ * Features 100% authentic genuine client installations, workshop builds and showroom displays.
  */
 
 const PRODUCTS_DATA = [
@@ -18,8 +17,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Bespoke dual-tone L-shaped sectional sofa with rust terracotta upholstery, warm ivory platform base, and designer fluted accent cushions.",
     description: "Designed and crafted for modern living, this bespoke L-shaped sectional sofa brings warmth, style, and functional comfort into your home. Built on a sturdy seasoned wooden framework with high-resilience foam padding, it features an inviting rust terracotta fabric paired with a warm ivory lower surround. Comes with tailored ribbed accent cushions.",
     images: [
-      "images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v11",
-      "images/gallery/custom-terracotta-sectional.png?v=unique_v11"
+      "images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v12"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -43,8 +41,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Striking contemporary L-shaped sofa in textured teal upholstery with a matching fabric-upholstered center coffee table.",
     description: "A show-stopping living room centerpiece delivered to a Silvassa residence. Features an expansive chaise lounge, padded backrest channel stitching, and a custom matching geometric coffee table with glass top insert.",
     images: [
-      "images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v11",
-      "images/sofas/teal-l-shaped-sectional-portrait.jpg?v=unique_v11"
+      "images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v12"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -67,44 +64,66 @@ const PRODUCTS_DATA = [
     shortDescription: "Luxurious 3-seater sofa with vertical fluted backrest tailoring, champagne beige textured weave, and slender brass-finished legs.",
     description: "An elegant centerpiece for contemporary formal living rooms. This designer sofa showcases fine vertical channel tufting on the backrest, generous dual seat cushions with wrapped comfort layers, and refined brass legs that lift the silhouette off the floor to create an airy, spacious ambience.",
     images: [
-      "images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v11",
-      "images/hero/luxury-fluted-sofa-hd.jpg?v=unique_v11"
+      "images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v12"
     ],
     featured: true,
     isRealClientPhoto: true,
     customizationOptions: [
-      "Available as 3-seater, 2-seater, single accent chair, or 3+2+1 suite",
-      "Choice of leg finishes: Matte Brass, Brushed Gold, Dark Walnut, or Chrome",
-      "Fabric choices: Textured Bouclé, Premium Velvet, or Breathable Linen"
+      "Available as 3-seater, 2-seater love seat, and armchair set",
+      "Leg finishes: Polished Brass, Matte Black, or Brushed Nickel",
+      "Selection of stain-resistant textured fabrics and velvets"
     ],
     highlights: ["Vertical Channel Tufting", "Reinforced Hardwood Frame", "Metallic Accent Legs", "Plush Multi-Layer Cushions"],
     servicesAvailable: ["Custom Sizing", "Showroom Fabric Selection", "Doorstep Delivery in Silvassa Region"]
   },
 
-  // --- REAL CLIENT SHOWCASE 4: Dusty Rose Fluted L-Shaped Sectional ---
+  // --- REAL CLIENT SHOWCASE 4: Modern Curved Aesthetic Lounge Sofa ---
   {
-    id: "blush-pink-fluted-l-sofa",
-    slug: "blush-pink-fluted-l-shaped-sofa",
-    name: "Fluted Velvet L-Shaped Corner Sofa in Dusty Rose",
+    id: "curved-taupe-lounge-sofa",
+    slug: "modern-curved-aesthetic-lounge-sofa",
+    name: "Modern Curved Aesthetic Lounge Sofa in Textured Fabric",
     category: "designer-sofas",
     categoryLabel: "Designer Sofas",
-    shortDescription: "Expansive luxury corner sofa in subtle dusty rose fabric with vertical fluted back and matching scatter pillows.",
-    description: "Photographed installed in a modern Silvassa residence. Features full-wrap vertical back fluting, deep supportive seating, and durable woven velvet upholstery that complements bright, curtained living rooms.",
+    shortDescription: "Sculptural curved-back 3-seater sofa in warm taupe textured weave with spherical ball accent cushion and low-profile timber feet.",
+    description: "Photographed installed in a luxury residence. Features an organic curved silhouette that effortlessly anchors open-plan living rooms, continuous tailored backrest foam, and ultra-comfortable deep seating cushions complemented by a spherical statement cushion.",
     images: [
-      "images/sofas/blush-pink-fluted-l-sofa-hd.jpg?v=unique_v11"
+      "images/sofas/curved-taupe-lounge-sofa.jpg?v=unique_v12"
     ],
     featured: true,
     isRealClientPhoto: true,
     customizationOptions: [
-      "Custom corner or chaise dimensions",
-      "Over 50+ pastel, jewel, and neutral shade choices",
-      "Choice of matching circular or rectangular center tables"
+      "Custom radius and length (7ft, 8ft, 9ft+)",
+      "Choice of bouclé, chenille, or linen-blend fabrics",
+      "Matching accent ball cushions and ottomans"
     ],
-    highlights: ["Vertical Fluted Back", "Soft-Touch Velvet Weave", "Generous Corner Seating", "Client Home Installation"],
-    servicesAvailable: ["On-Site Measurement", "Showroom Swatches"]
+    highlights: ["Sculptural Curved Architecture", "Ball Accent Cushion", "Continuous Padded Backrest", "Client Residence Setup"],
+    servicesAvailable: ["Custom Sizing", "Showroom Fabric Swatches", "Silvassa White-Glove Delivery"]
   },
 
-  // --- REAL CLIENT SHOWCASE 5: Handcrafted Cream & Tan Dual-Tone Sofa ---
+  // --- REAL WORKSHOP SHOWCASE 5: Bespoke Camel Modular L-Sectional ---
+  {
+    id: "camel-modular-l-sectional",
+    slug: "bespoke-camel-modular-l-sectional-sofa",
+    name: "Bespoke Camel Tan Modular L-Shaped Sectional Sofa",
+    category: "l-shaped-sofas",
+    categoryLabel: "L-Shaped Sofas",
+    shortDescription: "Expansive multi-piece corner sectional sofa in warm camel upholstery with supportive headrests, track arms, and plush back pillows.",
+    description: "Captured freshly fabricated at our Silvassa workshop ready for dispatch. Built with heavy-duty internal framing, individual seat modular sections for versatile room arrangements, and dual-density foam cushions that offer lasting lumbar and shoulder support.",
+    images: [
+      "images/sofas/camel-modular-l-sectional-sofa.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Configurable section counts (4-seater, 6-seater, 8-seater corner)",
+      "Adjustable or fixed headrest inclinations",
+      "Over 100+ stain-resistant upholstery fabrics"
+    ],
+    highlights: ["Workshop Fresh Build", "High-Back Headrest Support", "Modular Locking Units", "Plush Lumbar Pillows"],
+    servicesAvailable: ["Custom Fabrication", "Showroom Fabric Preview", "Direct Workshop Inspection"]
+  },
+
+  // --- REAL WORKSHOP SHOWCASE 6: Handcrafted Cream & Tan Dual-Tone Sofa ---
   {
     id: "custom-cream-tan-sofa",
     slug: "handcrafted-cream-tan-accent-sofa",
@@ -114,7 +133,7 @@ const PRODUCTS_DATA = [
     shortDescription: "Contemporary curved-silhouette sofa crafted in textured cream fabric with tan leatherette armrest cushions and base.",
     description: "Built by our craftsmen in the Silvassa workshop. Showcases a soft curved platform, premium comfort padding, and dual-material construction that pairs warm tan leatherette accents with durable textured white seating.",
     images: [
-      "images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v11"
+      "images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v12"
     ],
     featured: true,
     isRealClientPhoto: true,
@@ -127,30 +146,55 @@ const PRODUCTS_DATA = [
     servicesAvailable: ["Bespoke Fabrication", "Workshop Inspection"]
   },
 
-  // --- REAL CLIENT SHOWCASE 6: Tufted Pink Corner Sofa ---
+  // --- REAL CLIENT SHOWCASE 7: Architectural Backlit Channel-Tufted Bed ---
   {
-    id: "pink-tufted-corner-sofa",
-    slug: "artisan-button-tufted-corner-sofa",
-    name: "Artisan Button-Tufted Corner Sectional Sofa",
-    category: "l-shaped-sofas",
-    categoryLabel: "L-Shaped Sofas",
-    shortDescription: "Generous corner sectional sofa with classic button-tufted backrests, tapered wooden legs, and tailored cushions.",
-    description: "Crafted in our workshop with precision tufting, reinforced wooden frame, and tapered legs that provide easy cleaning clearance underneath. Built for spacious family living.",
+    id: "backlit-channel-tufted-bed",
+    slug: "architectural-backlit-channel-tufted-bed",
+    name: "Architectural Warm-Backlit Channel-Tufted Bed Frame",
+    category: "beds",
+    categoryLabel: "Beds & Furniture",
+    shortDescription: "Custom platform bed with vertical channel tufting and integrated ambient LED warm backlighting framing an architectural arch.",
+    description: "A signature bedroom installation in Silvassa. Designed with a curved-contour vertical channel tufted headboard, concealed indirect warm LED illumination, and a heavy-duty platform foundation engineered for complete silence and maximum mattress support.",
     images: [
-      "images/sofas/pink-tufted-corner-sofa.jpg?v=unique_v11"
+      "images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12",
+      "images/beds/terracotta-arch-luxury-bed.jpg?v=unique_v12"
     ],
-    featured: false,
+    featured: true,
     isRealClientPhoto: true,
     customizationOptions: [
-      "Custom section lengths (3-seater + 2-seater corner or custom)",
-      "Deep button tufting or clean smooth backrest option",
-      "Custom wooden leg stains"
+      "King, Queen, or Custom Mattress Dimensions",
+      "Integrated LED channel lighting with warm/cool temperature options",
+      "Choice of velvet, suede, or performance bouclé headboard fabrics",
+      "Optional hydraulic under-bed storage box"
     ],
-    highlights: ["Precision Button Tufting", "Solid Timber Framework", "Workshop Build", "Removable Scatter Cushions"],
-    servicesAvailable: ["Custom Sizing", "Showroom Fabric Selection"]
+    highlights: ["Concealed LED Warm Lighting", "Vertical Fluted Padding", "Heavy-Duty Framework", "Architectural Fit"],
+    servicesAvailable: ["Custom Sizing", "On-site Room Measurement", "Complete Bedroom Installation"]
   },
 
-  // --- REAL CLIENT SHOWCASE 7: Custom Upholstered Platform Bed ---
+  // --- REAL CLIENT SHOWCASE 8: Master Bedroom Suite & Botanical Wall ---
+  {
+    id: "botanical-luxury-bedroom-suite",
+    slug: "master-bedroom-suite-fluted-bed",
+    name: "Master Bedroom Suite: Fluted Bed Frame with Botanical Wall",
+    category: "beds",
+    categoryLabel: "Beds & Furniture",
+    shortDescription: "Full master bedroom installation featuring a dusty-rose fluted headboard, matching floating side drawers, and botanical accent wall.",
+    description: "An authentic turn-key bedroom furnishing by Bombay Sofa & Furnishing. Includes a generous vertical-fluted headboard upholstered in premium dusty rose velvet, integrated floating nightstands, and coordinated botanical feature wallpaper styling.",
+    images: [
+      "images/beds/botanical-luxury-bedroom-bed.jpg?v=unique_v12"
+    ],
+    featured: true,
+    isRealClientPhoto: true,
+    customizationOptions: [
+      "Headboard height and width customized to your wall size",
+      "Integrated floating nightstand modules with soft-close drawers",
+      "Matching feature wallpapers and sheer window curtains"
+    ],
+    highlights: ["Complete Bedroom Styling", "Floating Nightstands", "Vertical Fluting", "Client Installation"],
+    servicesAvailable: ["Complete Room Furnishing", "Wall Measurement", "Showroom Consultation"]
+  },
+
+  // --- REAL CLIENT SHOWCASE 9: Custom Platform Bed Frame ---
   {
     id: "custom-platform-bed",
     slug: "custom-upholstered-platform-bed",
@@ -158,12 +202,11 @@ const PRODUCTS_DATA = [
     category: "beds",
     categoryLabel: "Beds & Furniture",
     shortDescription: "Contemporary low-profile platform bed with full-width upholstered headboard and integrated seamless side tables.",
-    description: "Crafted to redefine bedroom aesthetics, this custom platform bed features clean minimalist architecture, heavy-duty slat support for any mattress type, and an upholstered headboard tailored in durable, soft-touch fabric. Shown installed with matching window blinds in a Silvassa residence.",
+    description: "Crafted to redefine bedroom aesthetics, this custom platform bed features clean minimalist architecture, heavy-duty slat support for any mattress type, and an upholstered headboard tailored in durable, soft-touch fabric.",
     images: [
-      "images/beds/custom-platform-bed-hd.jpg?v=unique_v11",
-      "images/beds/luxury-bedroom-interior.jpg?v=unique_v11"
+      "images/beds/custom-platform-bed-hd.jpg?v=unique_v12"
     ],
-    featured: true,
+    featured: false,
     isRealClientPhoto: true,
     customizationOptions: [
       "King Size, Queen Size, or Custom Mattress Fit",
@@ -175,27 +218,7 @@ const PRODUCTS_DATA = [
     servicesAvailable: ["Custom Woodworking", "On-site Room Measurement", "Complete Bedroom Furnishing"]
   },
 
-  // --- ADDITIONAL CURATED SHOWROOM DESIGNS (Preserved) ---
-  {
-    id: "modern-emerald-sofa",
-    slug: "modern-curved-emerald-sofa",
-    name: "Modern Curved Velvet 3-Seater Sofa",
-    category: "modern-sofas",
-    categoryLabel: "Modern Sofas",
-    shortDescription: "Architectural curved 3-seater sofa in rich jewel-toned velvet with continuous cushioned back and track armrests.",
-    description: "A statement piece combining modern sculptural form with everyday luxury. Deep seating cushions wrapped in soft premium velvet create a serene lounge experience, supported by a precision-crafted inner wooden frame.",
-    images: [
-      "images/sofas/modern-emerald-sofa.jpg?v=unique_v11"
-    ],
-    featured: false,
-    isRealClientPhoto: false,
-    customizationOptions: [
-      "Available in 2-seater, 3-seater, and custom sectional configurations",
-      "Wide spectrum of velvet, linen, and pet-friendly performance textiles"
-    ],
-    highlights: ["Curvilinear Form", "Plush Deep Cushioning", "Stain-Resistant Fabric Options", "Minimalist Profile"],
-    servicesAvailable: ["Custom Dimension Fit", "Fabric Swatch Preview"]
-  },
+  // --- ADDITIONAL CURATED SHOWROOM DESIGNS ---
   {
     id: "designer-coffee-table",
     slug: "handcrafted-designer-coffee-table",
@@ -205,9 +228,9 @@ const PRODUCTS_DATA = [
     shortDescription: "Minimalist organic coffee table crafted with rich natural wood tones, smooth rounded corners, and durable surface finish.",
     description: "The ideal centerpiece to complement bespoke sofa arrangements. Made from premium seasoned timber with smooth hand-finished edges, offering both functional surface area and tactile craftsmanship.",
     images: [
-      "images/sofas/designer-coffee-table.jpg?v=unique_v11"
+      "images/sofas/designer-coffee-table.jpg?v=unique_v12"
     ],
-    featured: true,
+    featured: false,
     isRealClientPhoto: false,
     customizationOptions: [
       "Natural Teak, Warm Walnut, or Ebonized Oak stain",
@@ -223,43 +246,40 @@ const PRODUCTS_DATA = [
     name: "Custom Multi-Layer Orthopedic Comfort Mattress",
     category: "mattresses",
     categoryLabel: "Mattresses",
-    shortDescription: "Advanced spine-support mattress featuring pocket springs, high-density rebonded foam, and breathable quilted top.",
-    description: "A rejuvenating sleep system that adapts to your body's natural contours. Built with multi-layer orthopedic engineering to relieve pressure points and minimize partner motion disturbance.",
+    shortDescription: "Spine-aligning high-density foam mattress tailored to any bespoke bed frame size, offering pressure relief and breathable comfort.",
+    description: "Engineered to deliver deep restorative sleep, our custom orthopedic mattresses are built with multi-density foam layers and breathable knitted jacquard covers that provide targeted lumbar support.",
     images: [
-      "images/mattresses/orthopedic-mattress.jpg?v=unique_v11",
-      "images/mattresses/premium-mattress-setup.png?v=unique_v11"
+      "images/mattresses/orthopedic-mattress.jpg?v=unique_v12"
     ],
-    featured: true,
-    isRealClientPhoto: true,
+    featured: false,
+    isRealClientPhoto: false,
     customizationOptions: [
-      "Custom length and width tailored to any bed frame",
-      "Thickness options: 6-inch, 8-inch, 10-inch, or 12-inch",
-      "Firmness options: Medium Soft, Medium Firm, Orthopedic Extra Firm"
+      "Made to any custom dimension, length, and thickness (5, 6, 8, 10+ inches)",
+      "Firmness options: Medium Soft, Balanced Medium, or Extra-Firm Orthopedic"
     ],
-    highlights: ["Spinal Alignment Support", "Breathable Quilted Fabric", "Edge-Support Technology"],
-    servicesAvailable: ["Custom Sizing for Odd Bed Frames", "Doorstep Delivery in Silvassa"]
+    highlights: ["Spinal Alignment Support", "Custom Dimensions", "Breathable Fabric", "Silvassa Delivery"],
+    servicesAvailable: ["Custom Sizing to Fit Any Bed", "Firmness Consultation"]
   },
   {
     id: "luxury-sheer-blackout-curtains",
-    slug: "made-to-measure-curtains",
+    slug: "luxury-sheer-blackout-curtains",
     name: "Made-to-Measure Sheer & Blackout Drapes",
     category: "curtains",
     categoryLabel: "Curtains",
-    shortDescription: "Custom tailored window drapery spanning airy textured sheers, architectural linen drapes, and 100% blackout fabrics.",
-    description: "Transform your living spaces with professionally tailored curtains. From sun-dappled translucent sheers that soften daylight to acoustic blackout drapes that guarantee restful sleep, our collection is stitched to perfection.",
+    shortDescription: "Custom-stitched floor-to-ceiling sheer linen drapes and blackout curtains tailored for optimal light filtration and thermal insulation.",
+    description: "Transform windows into refined architectural statements. Our made-to-measure curtain services include on-site measurement, fabric consultation from our showroom's curated collection, and precision pleat stitching.",
     images: [
-      "images/curtains/sheer-window-drapes.jpg",
-      "images/curtains/luxury-linen-curtains.jpg"
+      "images/curtains/sheer-window-drapes.jpg?v=unique_v12"
     ],
-    featured: true,
+    featured: false,
     isRealClientPhoto: false,
     customizationOptions: [
-      "Stitching styles: American Pleat, Ripple Fold, Eyelet, or Rod Pocket",
-      "Motorized track compatibility and silent manual tracks",
-      "Full room-darkening linings and thermal insulation"
+      "Header styles: Eyelet, Pinch Pleat, Wave Fold, or Rod Pocket",
+      "Motorized smart curtain tracks or designer manual rods",
+      "100% Blackout linings or airy semi-sheer fabrics"
     ],
-    highlights: ["Precision Tailoring", "Fade-Resistant Fabrics", "Complete Light Management"],
-    servicesAvailable: ["On-Site Window Measurement", "Fabric Catalogue Preview", "Showroom Installation Assistance"]
+    highlights: ["Made-to-Measure Precision", "Motorization Compatible", "Showroom Fabric Library", "On-site Installation"],
+    servicesAvailable: ["Free Home Measurement in Silvassa", "Showroom Fabric Consultation", "Professional Installation"]
   },
   {
     id: "modern-window-blinds",
@@ -267,40 +287,40 @@ const PRODUCTS_DATA = [
     name: "Architectural Zebra & Roller Blinds",
     category: "blinds",
     categoryLabel: "Blinds",
-    shortDescription: "Sleek window blinds providing effortless daylight control, UV shielding, and clean modern aesthetic for homes and offices.",
-    description: "A smart, contemporary alternative to traditional curtains. Zebra dual-shade blinds allow seamless shifting between ambient view and private room dimming with a single pull.",
+    shortDescription: "Contemporary zebra daylight control blinds and moisture-resistant roller shades designed for clean minimalist interiors and offices.",
+    description: "Engineered for precise light control, privacy, and streamlined aesthetics. Featuring durable aluminum cassettes, smooth pull mechanisms, and dual-layer striped fabrics that allow continuous adjustment between sheer and full blackout modes.",
     images: [
-      "images/blinds/wooden-roller-blinds.jpg",
-      "images/blinds/modern-venetian-blinds.jpg"
+      "images/blinds/wooden-roller-blinds.jpg?v=unique_v12"
     ],
-    featured: true,
+    featured: false,
     isRealClientPhoto: false,
     customizationOptions: [
-      "Zebra dual shades, Blackout roller blinds, or Wooden Venetian slats",
-      "Manual chain mechanism or remote motorized integration"
+      "Zebra dual-shade, blackout roller, wooden Venetian, or honeycomb styles",
+      "Manual chain drive or motorized remote control",
+      "Custom millimeter-precise window frame fitting"
     ],
-    highlights: ["Precision Sizing", "Smooth Cord / Motor Operation", "Moisture & Dust Resistant"],
-    servicesAvailable: ["Site Measurement in Silvassa", "Custom Fabrication", "Professional Mounting"]
+    highlights: ["Dual-Layer Light Control", "Dust & Moisture Resistant", "Slim Aluminum Cassette", "Commercial & Residential"],
+    servicesAvailable: ["On-site Window Measurement", "Custom Fabrication", "Professional Mounting"]
   },
   {
     id: "designer-furnishing-fabrics",
     slug: "designer-furnishing-fabrics",
     name: "Curated Upholstery & Furnishing Fabric Swatches",
     category: "bedsheets-fabrics",
-    categoryLabel: "Bedsheets & Fabrics",
-    shortDescription: "Extensive showroom library of luxury jacquards, velvets, bouclés, linens, and stain-resistant upholstery textiles.",
-    description: "Touch and feel premium textile collections directly at our Silvassa showroom. Whether reupholstering an heirloom sofa, stitching custom cushions, or choosing designer bed runners, we offer textures suited for every interior vision.",
+    categoryLabel: "Fabrics & Linen",
+    shortDescription: "Exclusive collection of premium velvet, bouclé, textured jacquard, and breathable linen upholstery fabrics available by the meter.",
+    description: "Explore hundreds of carefully curated upholstery and furnishing textiles at our Silvassa showroom. From heavy-duty commercial rub-count velvets to breathable linen and stain-resistant performance textiles.",
     images: [
-      "images/fabrics/upholstery-fabric-textures.jpg"
+      "images/fabrics/upholstery-fabric-textures.jpg?v=unique_v12"
     ],
-    featured: true,
+    featured: false,
     isRealClientPhoto: false,
     customizationOptions: [
-      "Sold per meter or bundled with our custom sofa stitching and reupholstery services",
-      "Washable, pet-friendly, and water-repellent treatments available"
+      "Available by the meter for sofas, headboards, cushions, and curtains",
+      "Wide spectrum of plain shades, micro-textures, and designer patterns"
     ],
-    highlights: ["Over 500+ Swatches at Showroom", "High Durability Ratings", "Rich Textural Varieties"],
-    servicesAvailable: ["Showroom Consultation", "Fabric Matching for Existing Decor"]
+    highlights: ["Over 200+ Swatches in Showroom", "High Rub-Count Durability", "Fade-Resistant Dyes"],
+    servicesAvailable: ["Fabric Selection Consultation", "Showroom Walk-in Browsing"]
   },
   {
     id: "textured-luxury-wallpapers",
@@ -308,34 +328,26 @@ const PRODUCTS_DATA = [
     name: "Textured & Metallic Accent Wallpapers",
     category: "wallpapers",
     categoryLabel: "Wallpapers",
-    shortDescription: "High-grade designer wall coverings in subtle textures, geometric motifs, and tactile metallics to transform feature walls.",
-    description: "Add warmth, tactile depth, and architectural drama to bedrooms and living rooms. Our curated wallpaper catalogs include wash-resistant, durable materials designed for long-lasting beauty.",
+    shortDescription: "Architectural accent wallpapers featuring tactile textures, geometric motifs, and subtle metallic sheens for statement walls.",
+    description: "Give living rooms, bedrooms, and feature niches unmistakable character. Our curated catalog includes non-woven embossed papers, washable textured vinyls, and contemporary geometric prints.",
     images: [
-      "images/wallpapers/textured-luxury-wallpaper.jpg"
+      "images/wallpapers/textured-luxury-wallpaper.jpg?v=unique_v12"
     ],
-    featured: true,
+    featured: false,
     isRealClientPhoto: false,
     customizationOptions: [
-      "Extensive roll catalogue viewable at our Silvassa showroom",
-      "Texture options: Linen weave, Subtle mica shimmer, Modern geometry, Natural stone effects"
+      "Extensive catalogue of geometric, damask, modern abstract, and botanical patterns",
+      "Roll-by-roll matching and seamless pattern alignment"
     ],
-    highlights: ["Seamless Pattern Repeat", "Durable Vinyl & Non-Woven Backing", "Mildew & Peel Resistant"],
-    servicesAvailable: ["Showroom Roll Catalogues", "Wall Surface Assessment in Silvassa"]
+    highlights: ["Washable Surface", "Seamless Pattern Fit", "Vibrant Lightfast Inks", "Showroom Catalog Selection"],
+    servicesAvailable: ["Wall Area Measurement", "Professional Wallpaper Application in Silvassa"]
   }
 ];
 
-// Reusable Helper to Get Product by ID or Slug
-function getProductById(id) {
-  return PRODUCTS_DATA.find(p => p.id === id || p.slug === id);
+if (typeof window !== 'undefined') {
+  window.PRODUCTS = PRODUCTS_DATA;
 }
 
-// Reusable Helper to Get Products by Category
-function getProductsByCategory(category) {
-  if (!category || category === 'all') return PRODUCTS_DATA;
-  return PRODUCTS_DATA.filter(p => p.category === category);
-}
-
-// Reusable Helper to Get Featured Products
-function getFeaturedProducts() {
-  return PRODUCTS_DATA.filter(p => p.featured);
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = PRODUCTS_DATA;
 }
