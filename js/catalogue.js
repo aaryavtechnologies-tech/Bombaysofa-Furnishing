@@ -20,11 +20,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const filtered = (category === 'all') 
       ? PRODUCTS_DATA 
       : PRODUCTS_DATA.filter(p => {
+          if (category === 'sofas') {
+            return p.category === 'l-shaped-sofas' || p.category === 'designer-sofas' || p.category === 'modern-sofas';
+          }
           if (category === 'headboards') {
-            return p.category === 'headboards' || p.id === 'backlit-channel-tufted-bed' || p.id === 'botanical-luxury-bedroom-suite';
+            return p.category === 'headboards' || p.id === 'backlit-channel-tufted-bed' || p.id === 'botanical-luxury-bedroom-suite' || p.id === 'terracotta-arch-luxury-bed';
           }
           if (category === 'beds') {
             return p.category === 'beds' || p.category === 'headboards';
+          }
+          if (category === 'puffies') {
+            return p.category === 'puffies';
           }
           return p.category === category;
         });

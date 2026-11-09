@@ -234,6 +234,49 @@ const GALLERY_ITEMS = [
     category: "custom-sofas",
     categoryLabel: "Custom Sofa Projects",
     isReal: false
+  },
+  // --- REAL CLIENT SHOWCASE: Custom Curtains & Window Drapes ---
+  {
+    src: "images/curtains/luxury-pleated-sheer-curtains.jpg",
+    title: "Luxury Pleated Sheer Window Drapes",
+    category: "curtains",
+    categoryLabel: "Window Curtains & Drapes",
+    isReal: true
+  },
+  {
+    src: "images/curtains/warm-beige-living-room-drapes.jpg",
+    title: "Warm Beige Floor-to-Ceiling Living Drapes",
+    category: "curtains",
+    categoryLabel: "Window Curtains & Drapes",
+    isReal: true
+  },
+  {
+    src: "images/curtains/charcoal-slate-blackout-curtains.jpg",
+    title: "Charcoal Slate Modern Blackout Curtains",
+    category: "curtains",
+    categoryLabel: "Window Curtains & Drapes",
+    isReal: true
+  },
+  {
+    src: "images/curtains/bronze-gold-textured-curtains.jpg",
+    title: "Bronze Gold Textured Jacquard Drapes",
+    category: "curtains",
+    categoryLabel: "Window Curtains & Drapes",
+    isReal: true
+  },
+  {
+    src: "images/curtains/silver-grey-ripple-fold-curtains.jpg",
+    title: "Silver Grey Contemporary Ripple Fold Curtains",
+    category: "curtains",
+    categoryLabel: "Window Curtains & Drapes",
+    isReal: true
+  },
+  {
+    src: "images/curtains/contemporary-window-sheer-drapes.jpg",
+    title: "Contemporary Dual-Layer Window Sheer Drapes",
+    category: "curtains",
+    categoryLabel: "Window Curtains & Drapes",
+    isReal: true
   }
 ];
 

@@ -253,113 +253,136 @@
       <div class="container">
         <div style="text-align: center; max-width: 700px; margin-inline: auto; margin-bottom: 3.5rem;">
           <span class="eyebrow" style="justify-content: center;">Comprehensive Furnishing</span>
-          <h2 id="categories-heading" class="heading-lg">Shop By Category</h2>
+          <h2 id="categories-heading" class="heading-lg">Explore Our Collections</h2>
           <p class="lead-text" style="margin-inline: auto; margin-top: 0.75rem;">
-            Explore our curated collections of living, bedroom, and window furnishing crafted for durability, aesthetics, and lasting comfort.
+            Explore our curated collections of living, bedroom, and window furnishing handcrafted for durability, aesthetics, and lasting comfort.
           </p>
         </div>
 
-        <div class="category-grid">
-          <!-- 1. Sofa Collection (Featured Large with Real Terracotta Photo) -->
-          <article class="category-card">
-            <div class="category-card-img-wrap">
-              <img src="images/sofas/l-shape-terracotta-sofa.jpg?v=real_v9" alt="Sofa Collection at Bombay Sofa & Furnishing" class="category-card-img">
+        <div class="category-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: clamp(1.25rem, 2.5vw, 2rem);">
+          <!-- 1. Designer Sofas & Sectionals -->
+          <article class="category-card" style="display: flex; flex-direction: column; height: 100%; border-radius: var(--radius-sm); overflow: hidden; background: var(--color-white); box-shadow: var(--shadow-sm); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="category-card-img-wrap" style="height: 240px; overflow: hidden; position: relative;">
+              <img src="images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v12" alt="Designer Sofas and Living Suites" class="category-card-img" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Workshop &amp; Client Build</span>
             </div>
-            <div class="category-card-body">
-              <h3 class="category-card-title">1. Sofa Collection</h3>
-              <p class="category-card-desc">
-                From modern sectional L-shaped sofas and curved 3-seaters to designer suites customized in 100+ fabric choices.
+            <div class="category-card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Living Room Architecture</span>
+              <h3 class="category-card-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">1. Designer Sofas &amp; Sectionals</h3>
+              <p class="category-card-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
+                From modern modular L-shaped sectionals to curved silhouettes tailored in 200+ luxury fabrics.
               </p>
-              <a href="#sofas" class="btn-text-link">
-                <span>Explore Sofas</span>
-                <i data-lucide="arrow-right"></i>
-              </a>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <a href="sofas-furniture.html?category=sofas" class="btn-text-link" style="display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--color-bronze);">
+                  <span>Explore Sofas</span>
+                  <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                </a>
+              </div>
             </div>
           </article>
 
-          <!-- 2. Beds & Furniture (Real Bed Photo) -->
-          <article class="category-card">
-            <div class="category-card-img-wrap">
-              <img src="images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12" alt="Beds and Bedroom Furniture" class="category-card-img">
+          <!-- 2. Designer Headboards & Beds -->
+          <article class="category-card" style="display: flex; flex-direction: column; height: 100%; border-radius: var(--radius-sm); overflow: hidden; background: var(--color-white); box-shadow: var(--shadow-sm); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="category-card-img-wrap" style="height: 240px; overflow: hidden; position: relative;">
+              <img src="images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12" alt="Designer Headboards and Beds" class="category-card-img" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Real Installation</span>
             </div>
-            <div class="category-card-body">
-              <h3 class="category-card-title">2. Beds &amp; Furniture</h3>
-              <p class="category-card-desc">
-                Custom upholstered platform beds, hydraulic storage beds, handcrafted coffee tables, and contemporary accent seating.
+            <div class="category-card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Bedroom Architecture</span>
+              <h3 class="category-card-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">2. Designer Headboards &amp; Beds</h3>
+              <p class="category-card-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
+                Architectural backlit arch headboards, velvet tufted wall panels &amp; custom storage bedframes.
               </p>
-              <a href="sofas-furniture.html" class="btn-text-link">
-                <span>Explore Beds &amp; Furniture</span>
-                <i data-lucide="arrow-right"></i>
-              </a>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <a href="sofas-furniture.html?category=headboards" class="btn-text-link" style="display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--color-bronze);">
+                  <span>Explore Headboards</span>
+                  <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                </a>
+              </div>
             </div>
           </article>
 
-          <!-- 3. Mattresses -->
-          <article class="category-card">
-            <div class="category-card-img-wrap">
-              <img src="images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13" alt="Custom Orthopedic & Pocket Spring Mattresses" class="category-card-img">
+          <!-- 3. Puffies & Accent Ottomans -->
+          <article class="category-card" style="display: flex; flex-direction: column; height: 100%; border-radius: var(--radius-sm); overflow: hidden; background: var(--color-white); box-shadow: var(--shadow-sm); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="category-card-img-wrap" style="height: 240px; overflow: hidden; position: relative;">
+              <img src="images/puffies/cozy-boucle-round-pouf-puffy.jpg" alt="Puffies and Accent Ottomans" class="category-card-img" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Handcrafted in Silvassa</span>
             </div>
-            <div class="category-card-body">
-              <h3 class="category-card-title">3. Mattresses</h3>
-              <p class="category-card-desc">
-                Rejuvenating orthopedic and pocket spring sleep systems custom-sized to fit any standard or bespoke bed dimensions.
+            <div class="category-card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Accent Seating</span>
+              <h3 class="category-card-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">3. Puffies &amp; Accent Ottomans</h3>
+              <p class="category-card-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
+                Tactile teddy bouclé poufs, biscuit-tufted ottomans &amp; bed-end benches in 8+ artisan styles.
               </p>
-              <a href="#mattresses" class="btn-text-link">
-                <span>Explore Mattresses</span>
-                <i data-lucide="arrow-right"></i>
-              </a>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <a href="sofas-furniture.html?category=puffies" class="btn-text-link" style="display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--color-bronze);">
+                  <span>Explore Puffies</span>
+                  <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                </a>
+              </div>
             </div>
           </article>
 
-          <!-- 4. Wallpapers -->
-          <article class="category-card">
-            <div class="category-card-img-wrap">
-              <img src="images/wallpapers/textured-luxury-wallpaper.jpg" alt="Designer Wallpapers" class="category-card-img">
+          <!-- 4. Custom Window Curtains & Drapes -->
+          <article class="category-card" style="display: flex; flex-direction: column; height: 100%; border-radius: var(--radius-sm); overflow: hidden; background: var(--color-white); box-shadow: var(--shadow-sm); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="category-card-img-wrap" style="height: 240px; overflow: hidden; position: relative;">
+              <img src="images/curtains/luxury-pleated-sheer-curtains.jpg" alt="Custom Window Curtains and Drapes" class="category-card-img" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Real Installation</span>
             </div>
-            <div class="category-card-body">
-              <h3 class="category-card-title">4. Wallpapers</h3>
-              <p class="category-card-desc">
-                Textured, geometric, and subtle metallic wall coverings that bring depth and visual sophistication to any feature wall.
+            <div class="category-card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Bespoke Window Dressing</span>
+              <h3 class="category-card-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">4. Custom Curtains &amp; Drapes</h3>
+              <p class="category-card-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
+                Made-to-measure sheers, ripple fold wave tracks, and 100% blackout linings with free home measurement.
               </p>
-              <a href="home-furnishing.html#wallpapers" class="btn-text-link">
-                <span>Explore Wallpapers</span>
-                <i data-lucide="arrow-right"></i>
-              </a>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <a href="home-furnishing.html#curtains" class="btn-text-link" style="display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--color-bronze);">
+                  <span>Explore Curtains</span>
+                  <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                </a>
+              </div>
             </div>
           </article>
-        
-          <!-- 8. Designer Headboards -->
-          <article class="category-card" style="border: 2px solid var(--color-bronze); position: relative;">
-            <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Trending Showcase</span>
-            <div class="category-card-img-wrap" style="aspect-ratio: 4 / 3;">
-              <img src="images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12" alt="Designer Bed Headboards" class="category-card-img" style="object-position: center top;">
+
+          <!-- 5. Orthopedic Sleep Mattresses -->
+          <article class="category-card" style="display: flex; flex-direction: column; height: 100%; border-radius: var(--radius-sm); overflow: hidden; background: var(--color-white); box-shadow: var(--shadow-sm); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="category-card-img-wrap" style="height: 240px; overflow: hidden; position: relative;">
+              <img src="images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13" alt="Custom Orthopedic &amp; Pocket Spring Mattresses" class="category-card-img" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Workshop Crafted</span>
             </div>
-            <div class="category-card-body">
-              <h3 class="category-card-title">8. Headboards</h3>
-              <p class="category-card-desc">
-                Custom upholstered headboards with warm LED backlighting, vertical channel fluting, arch wall panelling, and floating side tables.
+            <div class="category-card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Orthopedic &amp; Pocket Spring</span>
+              <h3 class="category-card-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">5. Orthopedic Mattresses</h3>
+              <p class="category-card-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
+                Rejuvenating multi-density spine support and zero partner disturbance sleep systems custom-sized to bedframes.
               </p>
-              <a href="#headboards" class="btn-text-link">
-                <span>View Headboard Designs</span>
-                <i data-lucide="arrow-right"></i>
-              </a>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <a href="home-furnishing.html#mattresses" class="btn-text-link" style="display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--color-bronze);">
+                  <span>Explore Mattresses</span>
+                  <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                </a>
+              </div>
             </div>
           </article>
-          <!-- 9. Designer Puffies & Ottomans -->
-          <article class="category-card" style="border: 2px solid var(--color-bronze); position: relative;">
-            <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Trending Accent</span>
-            <div class="category-card-img-wrap" style="aspect-ratio: 4 / 3;">
-              <img src="images/puffies/round-cylindrical-tier-pouf-puffy.jpg?v=unique_v12" alt="Designer Puffies and Ottomans" class="category-card-img" style="object-position: center;">
+
+          <!-- 6. Designer Wallpapers & Reupholstery -->
+          <article class="category-card" style="display: flex; flex-direction: column; height: 100%; border-radius: var(--radius-sm); overflow: hidden; background: var(--color-white); box-shadow: var(--shadow-sm); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+            <div class="category-card-img-wrap" style="height: 240px; overflow: hidden; position: relative;">
+              <img src="images/wallpapers/textured-luxury-wallpaper.jpg" alt="Designer Wallpapers and Reupholstery" class="category-card-img" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="product-badge product-badge-real" style="position: absolute; top: 12px; left: 12px; z-index: 2;">Showroom Library</span>
             </div>
-            <div class="category-card-body">
-              <h3 class="category-card-title">9. Puffies &amp; Ottomans</h3>
-              <p class="category-card-desc">
-                Custom round poufs, low square ottomans, bed-end benches, and dressing stools handcrafted in 200+ fabrics.
+            <div class="category-card-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
+              <span style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Feature Walls &amp; Restoration</span>
+              <h3 class="category-card-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">6. Wallpapers &amp; Restoration</h3>
+              <p class="category-card-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
+                Textured geometric metallic feature wall coverings and artisan sofa repair &amp; foam restoration in Silvassa.
               </p>
-              <a href="#puffies" class="btn-text-link">
-                <span>View Puffy Collection</span>
-                <i data-lucide="arrow-right"></i>
-              </a>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <a href="customisation-repair.html" class="btn-text-link" style="display: inline-flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--color-bronze);">
+                  <span>Explore Customisation</span>
+                  <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                </a>
+              </div>
             </div>
           </article>
         </div>
@@ -441,812 +464,8 @@
       </div>
     </section>
 
-        <!-- SECTION: BESPOKE DESIGNER SOFAS & LIVING SUITES -->
-    <section class="section section-beige" id="sofas" aria-labelledby="sofas-heading">
-      <div class="container">
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 820px; margin-inline: auto; margin-bottom: 3.5rem;">
-          <span class="eyebrow" style="justify-content: center;">
-            <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
-            <span>Bespoke Living Room Architecture</span>
-          </span>
-          <h2 id="sofas-heading" class="heading-lg" style="margin-top: 0.5rem;">
-            Custom Designer Sofas &amp; Sectionals
-          </h2>
-          <p class="lead-text" style="margin-top: 1rem;">
-            Custom Handcrafted Luxury Sofas &amp; Sectionals — Crafted specifically to your living room layout, wall dimensions, and seating comfort in Silvassa. Featuring solid hardwood frames, 40-density high-resilience foam, custom chaise configurations, and 200+ fabric choices.
-          </p>
-          <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; margin-top: 1.25rem; font-size: 0.875rem; color: var(--color-charcoal); font-weight: 500;">
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Seasoned Solid Hardwood Structure
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              40-Density High-Resilience Foam
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Custom Left/Right Chaise Sizing
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Free Home Measurement in Silvassa
-            </span>
-          </div>
-        </div>
-
-        <div class="product-grid" id="sofaGrid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
-          <!-- Card 1: Designer Fluted 3-Seater Sofa with Brass Accents -->
-          <article class="product-card sofa-card">
-            <div class="sofa-img-wrap" onclick="openLightbox('images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v12', 'Designer Fluted 3-Seater Sofa with Brass Accents', 'Sofa Client Installation • Silvassa')">
-              <img src="images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v12" alt="Designer Fluted 3-Seater Sofa by Bombay Sofa & Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Formal Living • Fluted Tailoring</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Designer Fluted 3-Seater with Brass Legs</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Vertical channel fluted backrest in champagne beige with brass legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Designer%20Fluted%20Beige%20Sofa." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=designer-fluted-beige-sofa" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 2: Modern Curved Aesthetic Lounge Sofa -->
-          <article class="product-card sofa-card">
-            <div class="sofa-img-wrap" onclick="openLightbox('images/sofas/curved-taupe-lounge-sofa.jpg?v=unique_v12', 'Modern Curved Aesthetic Lounge Sofa', 'Sofa Client Installation • Silvassa')">
-              <img src="images/sofas/curved-taupe-lounge-sofa.jpg?v=unique_v12" alt="Modern Curved Aesthetic Lounge Sofa by Bombay Sofa & Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Sculptural Living • Curved Silhouette</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Modern Curved Aesthetic Lounge Sofa</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Organic curved silhouette in warm taupe fabric with spherical accent cushion.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Modern%20Curved%20Aesthetic%20Lounge%20Sofa." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=curved-taupe-lounge-sofa" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 3: Teal Blue L-Shaped Sectional with Matching Center Table -->
-          <article class="product-card sofa-card">
-            <div class="sofa-img-wrap" onclick="openLightbox('images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v12', 'Teal Blue L-Shaped Sectional with Matching Table', 'Sofa Client Installation • Silvassa')">
-              <img src="images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v12" alt="Teal Sectional Sofa by Bombay Sofa & Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Sectional Suite • Center Table Included</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Teal L-Shaped Sectional &amp; Matching Table</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Contemporary teal L-shaped sectional with matching glass-top coffee table.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Teal%20L-Shaped%20Sectional." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=teal-l-shaped-sectional" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 4: Custom L-Shaped Sectional in Terracotta & Ivory -->
-          <article class="product-card sofa-card">
-            <div class="sofa-img-wrap" onclick="openLightbox('images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v12', 'Custom L-Shaped Sectional in Terracotta', 'Sofa Client Installation • Silvassa')">
-              <img src="images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v12" alt="Custom L-Shaped Sectional Sofa by Bombay Sofa & Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Dual-Tone • Apartment Installation</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Terracotta &amp; Ivory L-Shaped Sectional</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Rust terracotta sectional with clean ivory base and ribbed cushions.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Custom%20L-Shaped%20Terracotta%20Sofa." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=l-shape-terracotta-sofa" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 5: Bespoke Camel Tan Modular L-Sectional -->
-          <article class="product-card sofa-card">
-            <div class="sofa-img-wrap" onclick="openLightbox('images/sofas/camel-modular-l-sectional-sofa.jpg?v=unique_v12', 'Bespoke Camel Tan Modular Sectional Sofa', 'Sofa Workshop Build • Silvassa')">
-              <img src="images/sofas/camel-modular-l-sectional-sofa.jpg?v=unique_v12" alt="Bespoke Camel Tan Modular Sectional Sofa by Bombay Sofa & Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Workshop Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Workshop Fresh • High-Back Support</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Camel Tan Modular Sectional Sofa</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Expansive modular corner sectional with ergonomic headrests and track arms.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Camel%20Modular%20Sectional%20Sofa." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=camel-modular-l-sectional" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 6: Handcrafted Cream & Tan Dual-Tone Accent Sofa -->
-          <article class="product-card sofa-card">
-            <div class="sofa-img-wrap" onclick="openLightbox('images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v12', 'Cream & Tan Dual-Tone Accent Sofa', 'Sofa Workshop Build • Silvassa')">
-              <img src="images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v12" alt="Cream and tan accent sofa workshop build by Bombay Sofa & Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Workshop Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Workshop Craft • Dual-Material</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Cream &amp; Tan Dual-Tone Accent Sofa</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Curved dual-tone design in textured cream fabric and tan leatherette.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Cream%20and%20Tan%20Dual-Tone%20Sofa." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=custom-cream-tan-sofa" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <!-- Custom Sofa Workshop Banner -->
-        <div style="margin-top: 3.5rem; background: var(--color-white); border-radius: var(--radius-sm); border: 1px solid var(--color-grey-light); padding: clamp(1.75rem, 3.5vw, 2.75rem); box-shadow: var(--shadow-sm);">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; align-items: center;">
-            <div>
-              <span class="eyebrow">Direct Workshop Fabrication</span>
-              <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.5vw, 1.85rem); margin-top: 0.5rem;">
-                Looking for a Custom Sofa Sized for Your Living Room?
-              </h3>
-              <p style="color: var(--color-grey-soft); font-size: 0.9375rem; margin-top: 0.75rem; line-height: 1.6;">
-                Every sofa and sectional is made-to-order at our Silvassa workshop. Share your room photo, wall measurements, or design reference on WhatsApp, and we will custom-build it with your choice of foam thickness, chaise orientation, and fabric texture.
-              </p>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: center;">
-              <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20want%20to%20get%20a%20custom%20sofa%20made%20for%20my%20living%20room.%20Please%20guide%20me%20with%20options%20and%20pricing." 
-                 class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer" style="justify-content: center;">
-                <i data-lucide="message-circle"></i>
-                <span>Send Living Room Photo on WhatsApp</span>
-              </a>
-              <div style="display: flex; gap: 1rem; justify-content: center; font-size: 0.8125rem; color: var(--color-grey-soft);">
-                <span>✓ On-Site Measurement in Silvassa</span>
-                <span>✓ 200+ Showroom Fabrics</span>
-                <span>✓ 5-Year Frame Warranty</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: BESPOKE DESIGNER HEADBOARDS & WALL PANELLING -->
-    <section class="section section-white" id="headboards" aria-labelledby="headboards-heading">
-      <div class="container">
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 820px; margin-inline: auto; margin-bottom: 3.5rem;">
-          <span class="eyebrow" style="justify-content: center;">
-            <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
-            <span>Luxury Bedroom Architecture</span>
-          </span>
-          <h2 id="headboards-heading" class="heading-lg" style="margin-top: 0.5rem;">
-            Custom Designer Headboards &amp; Wall Panelling
-          </h2>
-          <p class="lead-text" style="margin-top: 1rem;">
-            Custom Handcrafted Designer Bed Headboards &amp; Panelling — Tailored specifically to your bedroom layout, arch window contours, and mattress size. Featuring vertical channel fluting, warm ambient LED illumination, and premium velvet or suede upholstery.
-          </p>
-          <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; margin-top: 1.25rem; font-size: 0.875rem; color: var(--color-charcoal); font-weight: 500;">
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Concealed Warm LED Glow
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Floor-to-Ceiling / Wall-to-Wall Custom Fits
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Integrated Floating Nightstands
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Free Measurement in Silvassa
-            </span>
-          </div>
-        </div>
-
-        <div class="headboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
-          <!-- Card 1: Warm Ambient LED Backlit Headboard -->
-          <article class="product-card headboard-card">
-            <div class="headboard-img-wrap" style="position: relative; width: 100%; aspect-ratio: 3 / 4; max-height: 480px; overflow: hidden; background: #e8e3dc; cursor: pointer;" onclick="openLightbox('images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12', 'Warm Backlit Architectural Headboard Bed', 'Headboard Client Installation • Silvassa')">
-              <img src="images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12" alt="Architectural Warm Backlit Headboard by Bombay Sofa & Furnishing" class="product-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Ambient Lighting • Arch Fit</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Warm Backlit Vertical Channel Headboard</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Vertical fluted channels with integrated warm ambient LED backlighting.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Warm%20Backlit%20Vertical%20Channel%20Headboard." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=backlit-channel-tufted-bed" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 2: Master Bedroom Suite Fluted Headboard & Nightstands -->
-          <article class="product-card headboard-card">
-            <div class="headboard-img-wrap" style="position: relative; width: 100%; aspect-ratio: 3 / 4; max-height: 480px; overflow: hidden; background: #e8e3dc; cursor: pointer;" onclick="openLightbox('images/beds/botanical-luxury-bedroom-bed.jpg?v=unique_v12', 'Master Bedroom Suite: Fluted Bed Frame with Botanical Wall', 'Headboard Client Installation • Silvassa')">
-              <img src="images/beds/botanical-luxury-bedroom-bed.jpg?v=unique_v12" alt="Master Bedroom Suite Fluted Headboard by Bombay Sofa & Furnishing" class="product-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Full Room Suite • Extended Width</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Master Suite Extended Fluted Headboard</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Full-width dusty rose velvet headboard with floating bedside tables.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Master%20Suite%20Extended%20Fluted%20Headboard." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="product-detail.html?id=botanical-luxury-bedroom-suite" class="btn btn-outline btn-sm">
-                  <span>Details</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 3: Layered Curved Terracotta Padded Headboard -->
-          <article class="product-card headboard-card">
-            <div class="headboard-img-wrap" style="position: relative; width: 100%; aspect-ratio: 3 / 4; max-height: 480px; overflow: hidden; background: #e8e3dc; cursor: pointer;" onclick="openLightbox('images/beds/terracotta-arch-luxury-bed.jpg?v=unique_v12', 'Curved Terracotta Padded Headboard Platform Bed', 'Headboard Client Installation • Silvassa')">
-              <img src="images/beds/terracotta-arch-luxury-bed.jpg?v=unique_v12" alt="Curved Terracotta Padded Headboard by Bombay Sofa & Furnishing" class="product-img" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Client Installation</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.75rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Curved Architecture • Dual-Tier Padding</span>
-              <h3 class="product-title" style="font-size: 1.25rem; margin-top: 0.35rem; line-height: 1.35;">Curved Terracotta Layered Headboard</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.9rem; margin-top: 0.5rem; line-height: 1.55;">
-                Dual-tier curved silhouette in rich terracotta suede with plush padding.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Curved%20Terracotta%20Layered%20Headboard." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-                <a href="gallery.html?category=headboards" class="btn btn-outline btn-sm">
-                  <span>Gallery</span>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <!-- Custom Headboard Workshop Banner / Process -->
-        <div style="margin-top: 3.5rem; background: var(--color-white); border-radius: var(--radius-sm); border: 1px solid var(--color-grey-light); padding: clamp(1.75rem, 3.5vw, 2.75rem); box-shadow: var(--shadow-sm);">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; align-items: center;">
-            <div>
-              <span class="eyebrow">Direct Workshop Fabrication</span>
-              <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.5vw, 1.85rem); margin-top: 0.5rem;">
-                Looking for a Custom Headboard Made for Your Bedroom?
-              </h3>
-              <p style="color: var(--color-grey-soft); font-size: 0.9375rem; margin-top: 0.75rem; line-height: 1.6;">
-                Every headboard is made-to-order at our Silvassa workshop. Share your room photo, wall measurements, or design reference on WhatsApp, and we will craft it with your choice of foam thickness, channel geometry, and fabric texture.
-              </p>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: center;">
-              <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20want%20to%20get%20a%20custom%20headboard%20made%20for%20my%20bedroom.%20Please%20guide%20me%20with%20options%20and%20pricing." 
-                 class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer" style="justify-content: center;">
-                <i data-lucide="message-circle"></i>
-                <span>Send Room Photo on WhatsApp</span>
-              </a>
-              <div style="display: flex; gap: 1rem; justify-content: center; font-size: 0.8125rem; color: var(--color-grey-soft);">
-                <span>✓ On-Site Measurement in Silvassa</span>
-                <span>✓ 200+ Showroom Fabrics</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: DESIGNER PUFFIES, OTTOMANS & BENCHES -->
-    <section class="section section-beige" id="puffies" aria-labelledby="puffies-heading">
-      <div class="container">
-        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 820px; margin-inline: auto; margin-bottom: 3.5rem;">
-          <span class="eyebrow" style="justify-content: center;">
-            <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
-            <span>Versatile Seating &amp; Accents • Silvassa</span>
-          </span>
-          <h2 id="puffies-heading" class="heading-lg" style="margin-top: 0.5rem;">
-            Designer Puffies, Ottomans &amp; Benches
-          </h2>
-          <p class="lead-text" style="margin-top: 1rem;">
-            Handcrafted Designer Puffies, Ottomans &amp; Accent Benches — Handcrafted for living rooms, bed ends, dressing spaces, and lounge accents. Available in cylindrical, square, flared, and bench silhouettes with high-density comfort padding and 200+ fabric choices.
-          </p>
-          <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; margin-top: 1.25rem; font-size: 0.875rem; color: var(--color-charcoal); font-weight: 500;">
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              40-Density Comfort Padding
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Seasoned Wood Internal Frame
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              Bed-End, Dressing &amp; Living Room Fits
-            </span>
-            <span style="display: inline-flex; align-items: center; gap: 6px;">
-              <i data-lucide="check-circle-2" style="width: 16px; height: 16px; stroke: var(--color-bronze);"></i>
-              200+ Velvet &amp; Bouclé Fabrics
-            </span>
-          </div>
-        </div>
-
-        <div class="product-grid" id="puffyGrid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-          <!-- Puffy Card 1: Rectangular Bed-End Bench Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/rectangular-bed-bench-puffy.jpg?v=unique_v12', 'Nordic Rectangular Bed-End Bench Puffy', 'Puffy &amp; Bench Collection • Silvassa')">
-              <img src="images/puffies/rectangular-bed-bench-puffy.jpg?v=unique_v12" alt="Nordic Rectangular Bed-End Bench Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Bed-End &amp; Living • Bench</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Nordic Rectangular Bed-End Bench Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Generous 4-foot upholstered bench with tapered solid wood legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Nordic%20Rectangular%20Bed-End%20Bench%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Puffy Card 2: Square Minimalist Low Ottoman Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/square-minimalist-ottoman-puffy.jpg?v=unique_v12', 'Square Minimalist Low Ottoman Puffy', 'Puffy &amp; Ottoman Collection • Silvassa')">
-              <img src="images/puffies/square-minimalist-ottoman-puffy.jpg?v=unique_v12" alt="Square Minimalist Low Ottoman Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Lounge Accent • Low Ottoman</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Square Minimalist Low Ottoman Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Low-profile square ottoman with curved timber corner bracket legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Square%20Minimalist%20Low%20Ottoman%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Puffy Card 3: Artisan Tufted Chaise Daybed Bench Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/artisan-tufted-chaise-bench-puffy.jpg?v=unique_v12', 'Artisan Channel-Tufted Chaise Bench Puffy', 'Puffy &amp; Chaise Collection • Silvassa')">
-              <img src="images/puffies/artisan-tufted-chaise-bench-puffy.jpg?v=unique_v12" alt="Artisan Channel-Tufted Chaise Bench Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Luxury Lounge • Tufted Daybed</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Artisan Channel-Tufted Chaise Bench Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Sculptural daybed bench with channel tufting and curved arm bolsters.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Artisan%20Channel-Tufted%20Chaise%20Bench%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Puffy Card 4: Modern Curved Flared Footstool Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/curved-flared-footstool-puffy.jpg?v=unique_v12', 'Modern Curved Flared Footstool Puffy', 'Puffy &amp; Stool Collection • Silvassa')">
-              <img src="images/puffies/curved-flared-footstool-puffy.jpg?v=unique_v12" alt="Modern Curved Flared Footstool Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Accent Stool • Ergonomic Footrest</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Modern Curved Flared Footstool Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Dual-tone flared footstool with plush high-resilience cushion.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Modern%20Curved%20Flared%20Footstool%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Puffy Card 5: Nordic Double-Tier Round Pouf Stool Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/round-cylindrical-tier-pouf-puffy.jpg?v=unique_v12', 'Nordic Double-Tier Round Pouf Stool Puffy', 'Puffy &amp; Pouf Collection • Silvassa')">
-              <img src="images/puffies/round-cylindrical-tier-pouf-puffy.jpg?v=unique_v12" alt="Nordic Double-Tier Round Pouf Stool Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Dressing &amp; Vanity • Round Pouf</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Nordic Double-Tier Round Pouf Stool Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Double-tier cylindrical pouf with timber ring and dowel legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Nordic%20Double-Tier%20Round%20Pouf%20Stool%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-        
-          <!-- Puffy Card 6: Cozy Bouclé Round Pouf Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/cozy-boucle-round-pouf-puffy.jpg?v=unique_v12', 'Cozy Bouclé Round Pouf Puffy', 'Puffy &amp; Accent Stool • Silvassa')">
-              <img src="images/puffies/cozy-boucle-round-pouf-puffy.jpg?v=unique_v12" alt="Cozy Bouclé Round Pouf Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Accent Stool • Bouclé Texture</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Cozy Bouclé Round Pouf Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Plush teddy bouclé round pouf with tapered solid wood legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Cozy%20Boucle%20Round%20Pouf%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Puffy Card 7: Biscuit-Tufted Velvet Square Ottoman Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/luxury-tufted-square-ottoman-puffy.jpg?v=unique_v12', 'Biscuit-Tufted Velvet Square Ottoman Puffy', 'Puffy &amp; Ottoman • Silvassa')">
-              <img src="images/puffies/luxury-tufted-square-ottoman-puffy.jpg?v=unique_v12" alt="Biscuit-Tufted Velvet Square Ottoman Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Formal Living • Metallic Legs</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Biscuit-Tufted Velvet Square Ottoman Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Deep biscuit grid-tufted square ottoman with slender brass legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Biscuit-Tufted%20Velvet%20Square%20Ottoman%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Puffy Card 8: Minimalist Bouclé Cylindrical Stool Puffy -->
-          <article class="product-card puffy-card">
-            <div class="puffy-img-wrap" onclick="openLightbox('images/puffies/cylindrical-boucle-trio-stools-puffy.jpg?v=unique_v12', 'Minimalist Bouclé Cylindrical Stool Puffy', 'Puffy &amp; Stool Collection • Silvassa')">
-              <img src="images/puffies/cylindrical-boucle-trio-stools-puffy.jpg?v=unique_v12" alt="Minimalist Bouclé Cylindrical Stool Puffy by Bombay Sofa &amp; Furnishing" class="product-img">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">Bespoke Build</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: inline-flex; align-items: center; gap: 4px;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Vanity &amp; Accent • Nested Stool</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Minimalist Bouclé Cylindrical Stool Puffy</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.55;">
-                Ivory textured bouclé cylindrical stool with natural wood legs.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Minimalist%20Boucle%20Cylindrical%20Stool%20Puffy." 
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <!-- Custom Puffy Workshop Banner -->
-        <div style="margin-top: 3.5rem; background: var(--color-white); border-radius: var(--radius-sm); border: 1px solid var(--color-grey-light); padding: clamp(1.75rem, 3.5vw, 2.75rem); box-shadow: var(--shadow-sm);">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; align-items: center;">
-            <div>
-              <span class="eyebrow">Direct Workshop Fabrication</span>
-              <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.5vw, 1.85rem); margin-top: 0.5rem;">
-                Looking for Custom Puffies or Ottomans for Your Home?
-              </h3>
-              <p style="color: var(--color-grey-soft); font-size: 0.9375rem; margin-top: 0.75rem; line-height: 1.6;">
-                Every puffy is handcrafted to order at our Silvassa workshop. Choose round, square, or bench lengths, custom height to match your sofa or bed, and select from 200+ velvet, bouclé, and textured fabrics.
-              </p>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: center;">
-              <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20want%20to%20get%20custom%20puffies%2Fottomans%20made%20for%20my%20home.%20Please%20share%20fabric%20and%20design%20options." 
-                 class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer" style="justify-content: center;">
-                <i data-lucide="message-circle"></i>
-                <span>Order Custom Puffy on WhatsApp</span>
-              </a>
-              <div style="display: flex; gap: 1rem; justify-content: center; font-size: 0.8125rem; color: var(--color-grey-soft);">
-                <span>✓ Custom Heights &amp; Diameters</span>
-                <span>✓ 200+ Showroom Fabrics</span>
-                <span>✓ Fast Workshop Delivery</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: CUSTOM ORTHOPEDIC & POCKET SPRING MATTRESSES -->
-    <section id="mattresses" class="section section-ivory" aria-labelledby="mattresses-heading">
-      <div class="container">
-        <!-- Section Header -->
-        <div style="text-align: center; max-width: 840px; margin-inline: auto; margin-bottom: 3.5rem;">
-          <span class="eyebrow" style="justify-content: center;">Silvassa Workshop Craftsmanship</span>
-          <h2 id="mattresses-heading" class="heading-lg" style="margin-top: 0.5rem;">
-            Custom Orthopedic &amp; Pocket Spring Mattresses
-          </h2>
-          <p class="lead" style="margin-top: 1rem; color: var(--color-grey-soft); font-size: 1.0625rem; line-height: 1.7;">
-            Rejuvenating orthopedic and pocket spring sleep systems handcrafted to fit any bed frame dimensions. 100% direct-from-workshop fabrication with premium multi-layer high-density foam, independent barrel pocket springs, and spine-aligning lumbar support.
-          </p>
-          <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.25rem;">
-            <span class="headboard-pill"><i data-lucide="check-circle" style="width: 14px; height: 14px; color: var(--color-bronze);"></i> 100% Real Workshop Fabrication</span>
-            <span class="headboard-pill"><i data-lucide="check-circle" style="width: 14px; height: 14px; color: var(--color-bronze);"></i> Custom Dimensions (King, Queen, Bespoke)</span>
-            <span class="headboard-pill"><i data-lucide="check-circle" style="width: 14px; height: 14px; color: var(--color-bronze);"></i> Spine Lumbar Alignment &amp; Zero Motion Transfer</span>
-            <span class="headboard-pill"><i data-lucide="check-circle" style="width: 14px; height: 14px; color: var(--color-bronze);"></i> Direct Factory Pricing</span>
-          </div>
-        </div>
-
-        <!-- Mattress Showcase Grid (4 Real Models) -->
-        <div class="products-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-
-          <!-- Mattress Card 1: Quilted Orthopedic Spine Care Mattress -->
-          <article class="product-card mattress-card">
-            <div class="mattress-img-wrap" onclick="openLightbox('images/mattresses/orthopedic-quilted-charcoal-mattress.jpg?v=unique_v13', 'Quilted Orthopedic Spine Care Mattress - Workshop Photo')">
-              <img src="images/mattresses/orthopedic-quilted-charcoal-mattress.jpg?v=unique_v13" alt="Quilted Orthopedic Spine Care Mattress" loading="lazy">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">100% Real Workshop Photo</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: flex; align-items: center; gap: 4px; z-index: 2;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">ORTHOPEDIC MATTRESS</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Quilted Orthopedic Spine Care Mattress</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.6;">
-                Multi-density orthopedic mattress in breathable geometric charcoal quilting.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Quilted%20Orthopedic%20Spine%20Care%20Mattress.%20Please%20share%20price%20and%20dimensions."
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Mattress Card 2: Dual-Tone Luxury Pocket Spring Mattress -->
-          <article class="product-card mattress-card">
-            <div class="mattress-img-wrap" onclick="openLightbox('images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13', 'Dual-Tone Luxury Pocket Spring Mattress - Workshop Photo')">
-              <img src="images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13" alt="Dual-Tone Luxury Pocket Spring Mattress" loading="lazy">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">100% Real Workshop Photo</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: flex; align-items: center; gap: 4px; z-index: 2;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">POCKET SPRING MATTRESS</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Dual-Tone Luxury Pocket Spring Mattress</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.6;">
-                Individually wrapped pocket springs with dual-tone edge piping.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20the%20Dual-Tone%20Pocket%20Spring%20Mattress.%20Please%20share%20price%20and%20dimensions."
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Mattress Card 3: Master Artisan Industrial Tape-Edge Stitching -->
-          <article class="product-card mattress-card">
-            <div class="mattress-img-wrap" onclick="openLightbox('images/mattresses/workshop-craftsmen-tape-edge-stitching.jpg?v=unique_v13', 'Master Artisan Industrial Tape-Edge Stitching - Silvassa Workshop')">
-              <img src="images/mattresses/workshop-craftsmen-tape-edge-stitching.jpg?v=unique_v13" alt="Master Artisan Industrial Tape-Edge Stitching" loading="lazy">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">100% Real Workshop Photo</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: flex; align-items: center; gap: 4px; z-index: 2;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">WORKSHOP FABRICATION</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Artisan Tape-Edge Machine Stitching</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.6;">
-                Handcrafted in our workshop with industrial tape-edge double stitching.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20want%20to%20order%20a%20Custom%20Handcrafted%20Mattress%20from%20your%20Silvassa%20Workshop.%20Please%20guide%20me."
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Mattress Card 4: Custom Bed Installation Orthopedic Mattress -->
-          <article class="product-card mattress-card">
-            <div class="mattress-img-wrap" onclick="openLightbox('images/mattresses/client-installation-orthopedic-bed-mattress.jpg?v=unique_v13', 'Custom Bed Installation Orthopedic Mattress - Client Bedroom')">
-              <img src="images/mattresses/client-installation-orthopedic-bed-mattress.jpg?v=unique_v13" alt="Custom Bed Installation Orthopedic Mattress" loading="lazy">
-              <span class="product-badge product-badge-real" style="position: absolute; top: 14px; left: 14px; z-index: 2;">100% Real Client Setup</span>
-              <span style="position: absolute; bottom: 14px; right: 14px; background: rgba(36, 35, 33, 0.85); color: #fff; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; display: flex; align-items: center; gap: 4px; z-index: 2;">
-                <i data-lucide="maximize-2" style="width: 12px; height: 12px;"></i> View HD
-              </span>
-            </div>
-            <div class="product-body" style="padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1;">
-              <span class="product-cat-label" style="color: var(--color-bronze); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">CLIENT INSTALLATION</span>
-              <h3 class="product-title" style="font-size: 1.2rem; margin-top: 0.35rem; line-height: 1.35;">Custom Bed Frame Installation Mattress</h3>
-              <p class="product-desc" style="color: var(--color-grey-soft); font-size: 0.875rem; margin-top: 0.5rem; line-height: 1.6;">
-                Precision millimeter sizing delivered and installed on bed frame.
-              </p>
-              <div class="product-actions" style="margin-top: auto; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-                <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20am%20interested%20in%20a%20Custom%20Bed%20Mattress%20Installation.%20Please%20share%20details."
-                   class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer" style="flex: 1; justify-content: center;">
-                  <i data-lucide="message-circle"></i>
-                  <span>Enquire Custom Size</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-        </div>
-
-        <!-- Custom Mattress Workshop Banner -->
-        <div style="margin-top: 3.5rem; background: var(--color-white); border-radius: var(--radius-sm); border: 1px solid rgba(197, 137, 64, 0.25); padding: 2.5rem; box-shadow: var(--shadow-sm);">
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; align-items: center;">
-            <div>
-              <span class="eyebrow">Direct Workshop Fabrication</span>
-              <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.5vw, 1.85rem); margin-top: 0.5rem;">
-                Need a Custom Size Mattress for Your Bed or Cot?
-              </h3>
-              <p style="color: var(--color-grey-soft); font-size: 0.9375rem; margin-top: 0.75rem; line-height: 1.6;">
-                Every mattress is manufactured to order at our Silvassa workshop. Whether you need standard King/Queen, extra-long sizes, round beds, or medical orthopedic support, we craft it to your exact millimeters.
-              </p>
-            </div>
-            <div style="display: flex; flex-direction: column; gap: 1rem; justify-content: center;">
-              <a href="https://wa.me/917058573889?text=Hello%20Bombay%20Sofa%20%26%20Furnishing%2C%20I%20want%20to%20order%20a%20Custom%20Size%20Mattress%20for%20my%20bed.%20Please%20help%20me%20with%20sizing%20and%20rates."
-                 class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer" style="justify-content: center;">
-                <i data-lucide="message-circle"></i>
-                <span>Order Custom Mattress on WhatsApp</span>
-              </a>
-              <div style="display: flex; gap: 1rem; justify-content: center; font-size: 0.8125rem; color: var(--color-grey-soft); flex-wrap: wrap;">
-                <span>✓ Any Custom Dimensions</span>
-                <span>✓ Ortho &amp; Pocket Spring</span>
-                <span>✓ Direct Factory Rates</span>
-                <span>✓ Fast Silvassa Delivery</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    
-
     <!-- SECTION: INSTAGRAM REELS (AUTOPLAY SHOWCASE) -->
-    <section id="instagram-reels" class="section section-white" aria-labelledby="reels-heading">
+    <section id="instagram-reels" class="section section-beige" aria-labelledby="reels-heading">
       <div class="container">
         <!-- Section Header -->
         <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 3.5rem;">
@@ -1624,11 +843,11 @@
           <h3 class="footer-col-title">Categories</h3>
           <ul class="footer-links">
             <li><a href="sofas-furniture.html?category=l-shaped-sofas" class="footer-link">L-Shaped Sofas</a></li>
-            <li><a href="sofas-furniture.html?category=designer-sofas" class="footer-link">Designer Sofas</a></li>
-            <li><a href="sofas-furniture.html?category=beds" class="footer-link">Beds &amp; Storage</a></li>
+            <li><a href="sofas-furniture.html?category=sofas" class="footer-link">Designer Sofas</a></li>
+            <li><a href="sofas-furniture.html?category=headboards" class="footer-link">Beds &amp; Headboards</a></li>
+            <li><a href="sofas-furniture.html?category=puffies" class="footer-link">Puffies &amp; Ottomans</a></li>
+            <li><a href="home-furnishing.html#curtains" class="footer-link">Custom Curtains &amp; Drapes</a></li>
             <li><a href="home-furnishing.html#mattresses" class="footer-link">Orthopedic Mattresses</a></li>
-            <li><a href="index.html#headboards" class="footer-link">Designer Headboards</a></li>
-            <li><a href="index.html#puffies" class="footer-link">Puffies &amp; Ottomans</a></li>
             <li><a href="customisation-repair.html" class="footer-link">Sofa Reupholstery</a></li>
           </ul>
         </div>
