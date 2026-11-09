@@ -321,6 +321,49 @@ ul, ol {
   box-shadow: 0 8px 20px rgba(32, 186, 86, 0.3);
 }
 
+.whatsapp-icon {
+  width: 1.2em;
+  height: 1.2em;
+  fill: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.btn-whatsapp .whatsapp-icon,
+.btn-whatsapp svg {
+  width: 1.25em;
+  height: 1.25em;
+  fill: currentColor;
+  stroke: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.btn-sm .whatsapp-icon,
+.btn-sm svg {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.floating-whatsapp-btn .whatsapp-icon,
+.floating-whatsapp-btn svg {
+  width: 32px;
+  height: 32px;
+  fill: #ffffff;
+  stroke: none !important;
+  display: block;
+}
+
+.footer-social-link .whatsapp-icon,
+.footer-social-link svg.whatsapp-icon {
+  width: 18px !important;
+  height: 18px !important;
+  fill: #ffffff !important;
+  stroke: none !important;
+}
+
 .btn-sm {
   padding: 0.65rem 1.25rem;
   font-size: 0.85rem;
