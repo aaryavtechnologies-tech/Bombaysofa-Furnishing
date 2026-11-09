@@ -1888,3 +1888,11 @@ ul, ol {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
   box-shadow: 0 4px 14px rgba(225, 48, 108, 0.45);
 }
+
+.footer-social-link svg,
+.footer-social-link i {
+  width: 18px !important;
+  height: 18px !important;
+  stroke: #ffffff !important;
+  display: block !important;
+}

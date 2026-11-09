@@ -14,7 +14,7 @@ const PRODUCTS_DATA = [
     name: "Custom L-Shaped Sectional Sofa in Terracotta & Ivory",
     category: "l-shaped-sofas",
     categoryLabel: "L-Shaped Sofas",
-    shortDescription: "Bespoke dual-tone L-shaped sectional sofa with rust terracotta upholstery, warm ivory platform base, and designer fluted accent cushions.",
+    shortDescription: "Bespoke dual-tone L-sectional with rust terracotta fabric and fluted accent cushions.",
     description: "Designed and crafted for modern living, this bespoke L-shaped sectional sofa brings warmth, style, and functional comfort into your home. Built on a sturdy seasoned wooden framework with high-resilience foam padding, it features an inviting rust terracotta fabric paired with a warm ivory lower surround. Comes with tailored ribbed accent cushions.",
     images: [
       "images/sofas/l-shape-terracotta-sofa.jpg?v=unique_v12"
@@ -38,7 +38,7 @@ const PRODUCTS_DATA = [
     name: "Custom Teal Blue L-Shaped Sectional with Matching Center Table",
     category: "l-shaped-sofas",
     categoryLabel: "L-Shaped Sofas",
-    shortDescription: "Striking contemporary L-shaped sofa in textured teal upholstery with a matching fabric-upholstered center coffee table.",
+    shortDescription: "Contemporary teal L-shaped sectional with a matching upholstered center coffee table.",
     description: "A show-stopping living room centerpiece delivered to a Silvassa residence. Features an expansive chaise lounge, padded backrest channel stitching, and a custom matching geometric coffee table with glass top insert.",
     images: [
       "images/sofas/teal-l-shaped-sectional-hd.jpg?v=unique_v12"
@@ -61,7 +61,7 @@ const PRODUCTS_DATA = [
     name: "Designer Fluted 3-Seater Sofa with Brass Accents",
     category: "designer-sofas",
     categoryLabel: "Designer Sofas",
-    shortDescription: "Luxurious 3-seater sofa with vertical fluted backrest tailoring, champagne beige textured weave, and slender brass-finished legs.",
+    shortDescription: "Luxurious 3-seater sofa with vertical fluted backrest tailoring and slender brass legs.",
     description: "An elegant centerpiece for contemporary formal living rooms. This designer sofa showcases fine vertical channel tufting on the backrest, generous dual seat cushions with wrapped comfort layers, and refined brass legs that lift the silhouette off the floor to create an airy, spacious ambience.",
     images: [
       "images/sofas/designer-fluted-sofa-hd.jpg?v=unique_v12"
@@ -84,7 +84,7 @@ const PRODUCTS_DATA = [
     name: "Modern Curved Aesthetic Lounge Sofa in Textured Fabric",
     category: "designer-sofas",
     categoryLabel: "Designer Sofas",
-    shortDescription: "Sculptural curved-back 3-seater sofa in warm taupe textured weave with spherical ball accent cushion and low-profile timber feet.",
+    shortDescription: "Sculptural curved 3-seater sofa in warm taupe weave with spherical accent cushion.",
     description: "Photographed installed in a luxury residence. Features an organic curved silhouette that effortlessly anchors open-plan living rooms, continuous tailored backrest foam, and ultra-comfortable deep seating cushions complemented by a spherical statement cushion.",
     images: [
       "images/sofas/curved-taupe-lounge-sofa.jpg?v=unique_v12"
@@ -107,7 +107,7 @@ const PRODUCTS_DATA = [
     name: "Bespoke Camel Tan Modular L-Shaped Sectional Sofa",
     category: "l-shaped-sofas",
     categoryLabel: "L-Shaped Sofas",
-    shortDescription: "Expansive multi-piece corner sectional sofa in warm camel upholstery with supportive headrests, track arms, and plush back pillows.",
+    shortDescription: "Expansive corner modular sectional in warm camel upholstery with supportive headrests.",
     description: "Captured freshly fabricated at our Silvassa workshop ready for dispatch. Built with heavy-duty internal framing, individual seat modular sections for versatile room arrangements, and dual-density foam cushions that offer lasting lumbar and shoulder support.",
     images: [
       "images/sofas/camel-modular-l-sectional-sofa.jpg?v=unique_v12"
@@ -130,7 +130,7 @@ const PRODUCTS_DATA = [
     name: "Handcrafted Cream & Tan Dual-Tone Accent Sofa",
     category: "modern-sofas",
     categoryLabel: "Modern Sofas",
-    shortDescription: "Contemporary curved-silhouette sofa crafted in textured cream fabric with tan leatherette armrest cushions and base.",
+    shortDescription: "Curved silhouette sofa in textured cream fabric with tan leatherette accents.",
     description: "Built by our craftsmen in the Silvassa workshop. Showcases a soft curved platform, premium comfort padding, and dual-material construction that pairs warm tan leatherette accents with durable textured white seating.",
     images: [
       "images/sofas/custom-cream-tan-sofa-hd.jpg?v=unique_v12"
@@ -153,7 +153,7 @@ const PRODUCTS_DATA = [
     name: "Architectural Warm-Backlit Channel-Tufted Bed Frame",
     category: "headboards",
     categoryLabel: "Designer Headboards",
-    shortDescription: "Custom platform bed with vertical channel tufting and integrated ambient LED warm backlighting framing an architectural arch.",
+    shortDescription: "Custom platform bed with vertical channel tufting and integrated LED backlighting.",
     description: "A signature bedroom installation in Silvassa. Designed with a curved-contour vertical channel tufted headboard, concealed indirect warm LED illumination, and a heavy-duty platform foundation engineered for complete silence and maximum mattress support.",
     images: [
       "images/beds/backlit-channel-tufted-bed.jpg?v=unique_v12",
@@ -178,7 +178,7 @@ const PRODUCTS_DATA = [
     name: "Master Bedroom Suite: Fluted Bed Frame with Botanical Wall",
     category: "headboards",
     categoryLabel: "Designer Headboards",
-    shortDescription: "Full master bedroom installation featuring a dusty-rose fluted headboard, matching floating side drawers, and botanical accent wall.",
+    shortDescription: "Master bedroom suite with dusty-rose fluted headboard and matching floating side drawers.",
     description: "An authentic turn-key bedroom furnishing by Bombay Sofa & Furnishing. Includes a generous vertical-fluted headboard upholstered in premium dusty rose velvet, integrated floating nightstands, and coordinated botanical feature wallpaper styling.",
     images: [
       "images/beds/botanical-luxury-bedroom-bed.jpg?v=unique_v12"
@@ -201,7 +201,7 @@ const PRODUCTS_DATA = [
     name: "Custom Upholstered Platform Bed with Extended Headboard",
     category: "beds",
     categoryLabel: "Beds & Furniture",
-    shortDescription: "Contemporary low-profile platform bed with full-width upholstered headboard and integrated seamless side tables.",
+    shortDescription: "Low-profile platform bed with full-width upholstered headboard and integrated side tables.",
     description: "Crafted to redefine bedroom aesthetics, this custom platform bed features clean minimalist architecture, heavy-duty slat support for any mattress type, and an upholstered headboard tailored in durable, soft-touch fabric.",
     images: [
       "images/beds/custom-platform-bed-hd.jpg?v=unique_v12"
@@ -225,7 +225,7 @@ const PRODUCTS_DATA = [
     name: "Handcrafted Organic Wood & Stone Coffee Table",
     category: "coffee-tables",
     categoryLabel: "Coffee Tables",
-    shortDescription: "Minimalist organic coffee table crafted with rich natural wood tones, smooth rounded corners, and durable surface finish.",
+    shortDescription: "Organic minimalist coffee table with smooth rounded corners and rich timber finish.",
     description: "The ideal centerpiece to complement bespoke sofa arrangements. Made from premium seasoned timber with smooth hand-finished edges, offering both functional surface area and tactile craftsmanship.",
     images: [
       "images/sofas/designer-coffee-table.jpg?v=unique_v12"
@@ -246,7 +246,7 @@ const PRODUCTS_DATA = [
     name: "Quilted Orthopedic Spine Care Mattress",
     category: "mattresses",
     categoryLabel: "Orthopedic Mattresses",
-    shortDescription: "Therapeutic multi-tier orthopedic mattress in charcoal geometric quilting, custom manufactured to any bed size.",
+    shortDescription: "Therapeutic orthopedic mattress in charcoal quilting, tailored to any bed dimension.",
     description: "Handcrafted at our Silvassa workshop, this orthopedic mattress features high-density rebonded foam composites, therapeutic lumbar posture zones, and a breathable charcoal geometric jacquard quilt that maintains optimal sleep temperature.",
     images: [
       "images/mattresses/orthopedic-quilted-charcoal-mattress.jpg?v=unique_v13",
@@ -269,7 +269,7 @@ const PRODUCTS_DATA = [
     name: "Dual-Tone Luxury Pocket Spring Mattress",
     category: "mattresses",
     categoryLabel: "Pocket Spring Mattresses",
-    shortDescription: "Zero-motion transfer pocket spring mattress with dual-tone contrast charcoal edge piping and plush comfort layers.",
+    shortDescription: "Zero-motion pocket spring mattress with reinforced edge piping and plush comfort layers.",
     description: "Engineered for peaceful sleep without disturbance, this mattress features individually encased barrel pocket coils that respond independently to body contours, reinforced by high-density edge encasement and dual-tone perimeter piping.",
     images: [
       "images/mattresses/dual-tone-pocket-spring-mattress.jpg?v=unique_v13",
@@ -292,7 +292,7 @@ const PRODUCTS_DATA = [
     name: "Made-to-Measure Sheer & Blackout Drapes",
     category: "curtains",
     categoryLabel: "Curtains",
-    shortDescription: "Custom-stitched floor-to-ceiling sheer linen drapes and blackout curtains tailored for optimal light filtration and thermal insulation.",
+    shortDescription: "Custom floor-to-ceiling sheer drapes and blackout curtains tailored for optimal light control.",
     description: "Transform windows into refined architectural statements. Our made-to-measure curtain services include on-site measurement, fabric consultation from our showroom's curated collection, and precision pleat stitching.",
     images: [
       "images/curtains/sheer-window-drapes.jpg?v=unique_v12"
@@ -313,7 +313,7 @@ const PRODUCTS_DATA = [
     name: "Architectural Zebra & Roller Blinds",
     category: "blinds",
     categoryLabel: "Blinds",
-    shortDescription: "Contemporary zebra daylight control blinds and moisture-resistant roller shades designed for clean minimalist interiors and offices.",
+    shortDescription: "Contemporary zebra daylight control blinds and moisture-resistant roller shades.",
     description: "Engineered for precise light control, privacy, and streamlined aesthetics. Featuring durable aluminum cassettes, smooth pull mechanisms, and dual-layer striped fabrics that allow continuous adjustment between sheer and full blackout modes.",
     images: [
       "images/blinds/wooden-roller-blinds.jpg?v=unique_v12"
@@ -334,7 +334,7 @@ const PRODUCTS_DATA = [
     name: "Curated Upholstery & Furnishing Fabric Swatches",
     category: "bedsheets-fabrics",
     categoryLabel: "Fabrics & Linen",
-    shortDescription: "Exclusive collection of premium velvet, bouclé, textured jacquard, and breathable linen upholstery fabrics available by the meter.",
+    shortDescription: "Premium velvet, bouclé, textured jacquard, and linen upholstery fabrics by the meter.",
     description: "Explore hundreds of carefully curated upholstery and furnishing textiles at our Silvassa showroom. From heavy-duty commercial rub-count velvets to breathable linen and stain-resistant performance textiles.",
     images: [
       "images/fabrics/upholstery-fabric-textures.jpg?v=unique_v12"
@@ -354,7 +354,7 @@ const PRODUCTS_DATA = [
     name: "Textured & Metallic Accent Wallpapers",
     category: "wallpapers",
     categoryLabel: "Wallpapers",
-    shortDescription: "Architectural accent wallpapers featuring tactile textures, geometric motifs, and subtle metallic sheens for statement walls.",
+    shortDescription: "Tactile textured and geometric pattern wallpapers designed for statement walls.",
     description: "Give living rooms, bedrooms, and feature niches unmistakable character. Our curated catalog includes non-woven embossed papers, washable textured vinyls, and contemporary geometric prints.",
     images: [
       "images/wallpapers/textured-luxury-wallpaper.jpg?v=unique_v12"
@@ -376,7 +376,7 @@ const PRODUCTS_DATA = [
     name: "Nordic Rectangular Bed-End Bench Puffy",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Generous 4-foot upholstered bench featuring clean textured woven upholstery and tapered natural wooden legs.",
+    shortDescription: "Generous 4-foot upholstered bench with textured weave and natural timber legs.",
     description: "A versatile statement piece crafted in our Silvassa workshop. Designed for foot-of-bed placement, dressing areas, entryways, or extra living room seating. Features a solid seasoned wood foundation and high-resilience foam padding.",
     images: [
       "images/puffies/rectangular-bed-bench-puffy.jpg?v=unique_v12"
@@ -397,7 +397,7 @@ const PRODUCTS_DATA = [
     name: "Square Minimalist Low Ottoman Puffy",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Contemporary low-profile square ottoman with curved timber corner bracket legs and textured neutral upholstery.",
+    shortDescription: "Low-profile square ottoman with curved timber corner bracket legs.",
     description: "Built for relaxed modern living. Features curved solid timber corner bracket legs, clean tailored seams, and generous high-resilience seating foam suitable as a footrest, coffee table companion, or occasional seat.",
     images: [
       "images/puffies/square-minimalist-ottoman-puffy.jpg?v=unique_v12"
@@ -418,7 +418,7 @@ const PRODUCTS_DATA = [
     name: "Artisan Channel-Tufted Chaise Bench Puffy",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Sculptural cushioned daybed bench featuring button/channel tufted upholstery, curved side arm bolsters, and angled wooden legs.",
+    shortDescription: "Artisan tufted daybed bench with curved arm bolsters and angled hardwood legs.",
     description: "An elegant accent daybed bench crafted in our Silvassa workshop. Showcases deep channel/button tufting, contoured side bolsters for lounging, and angled solid hardwood legs that bring mid-century sophistication into bedrooms and living areas.",
     images: [
       "images/puffies/artisan-tufted-chaise-bench-puffy.jpg?v=unique_v12"
@@ -439,7 +439,7 @@ const PRODUCTS_DATA = [
     name: "Modern Curved Flared Footstool Puffy",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Dual-tone architectural footstool featuring a flared curved lower surround, ultra-padded top cushion, and round tapered wooden legs.",
+    shortDescription: "Dual-tone curved footstool with plush padded cushion and round tapered legs.",
     description: "Ergonomically designed to pair with lounge armchairs, vanity dressers, or relaxed reading nooks. Features a dual-tone curved flared silhouette, plush comfort wrapped top foam, and sturdy round dowel timber legs.",
     images: [
       "images/puffies/curved-flared-footstool-puffy.jpg?v=unique_v12"
@@ -460,7 +460,7 @@ const PRODUCTS_DATA = [
     name: "Nordic Double-Tier Round Pouf Stool Puffy",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Architectural double-tier cylindrical pouf stool accented with an inset timber ring divider and 4 rounded wooden dowel legs.",
+    shortDescription: "Double-tier cylindrical pouf with timber divider ring and solid dowel legs.",
     description: "A trendy boutique design popular for vanity dressing tables, boutique bedrooms, and modern living rooms. Features a tiered cylindrical silhouette with an accent wood trim ring and 4 vertical solid timber dowel legs.",
     images: [
       "images/puffies/round-cylindrical-tier-pouf-puffy.jpg?v=unique_v12"
@@ -482,7 +482,7 @@ const PRODUCTS_DATA = [
     name: "Cozy Bouclé Round Pouf Puffy with Timber Legs",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Plush round cylindrical pouf upholstered in textured teddy bouclé fabric with 4 solid tapered timber legs.",
+    shortDescription: "Plush round pouf in textured teddy bouclé with tapered timber legs.",
     description: "Designed for effortless, tactile luxury. Brings warm Scandinavian comfort and secondary casual seating into bedrooms and living spaces. Built with high-density resilient foam core and solid timber tapered legs.",
     images: [
       "images/puffies/cozy-boucle-round-pouf-puffy.jpg?v=unique_v12"
@@ -503,7 +503,7 @@ const PRODUCTS_DATA = [
     name: "Biscuit-Tufted Velvet Square Ottoman Puffy with Brass Legs",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Sophisticated square low ottoman featuring deep biscuit grid tufting, plush velvet upholstery, and slender gold brass-finished tapered legs.",
+    shortDescription: "Square velvet ottoman with deep biscuit grid tufting and brass-finished legs.",
     description: "A formal living room statement piece. Handcrafted with deep geometric biscuit tufting, high-resilience wrapped foam padding, and polished brass-finished metallic legs. Available in pairs or individual accent units.",
     images: [
       "images/puffies/luxury-tufted-square-ottoman-puffy.jpg?v=unique_v12"
@@ -524,7 +524,7 @@ const PRODUCTS_DATA = [
     name: "Minimalist Bouclé Cylindrical Stool Puffy",
     category: "puffies",
     categoryLabel: "Puffies & Ottomans",
-    shortDescription: "Modern cylindrical accent stool wrapped in ivory textured bouclé with natural light timber tapered legs.",
+    shortDescription: "Modern cylindrical stool wrapped in ivory bouclé with natural timber legs.",
     description: "Lightweight, chic, and endlessly versatile. Features a seamless curved cylindrical foam core wrapped in ivory teddy bouclé, elevated on 4 solid natural timber dowel legs. Perfect for dressing vanity setups or clustered living room seating.",
     images: [
       "images/puffies/cylindrical-boucle-trio-stools-puffy.jpg?v=unique_v12"
